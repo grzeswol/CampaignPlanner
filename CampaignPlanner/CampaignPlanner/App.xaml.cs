@@ -9,12 +9,14 @@ namespace CampaignPlanner
     public partial class App : Application
     {
 
+        public static TownDataService TownDataService { get; } = new TownDataService();
         public App()
         {
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
             MainPage = new AppShell();
+            //SeedData();
         }
 
         protected override void OnStart()
@@ -27,6 +29,11 @@ namespace CampaignPlanner
 
         protected override void OnResume()
         {
+        }
+
+        private async void SeedData()
+        {
+            await TownDataService.AddItemAsync(new Models.Town() { Name = "test" });
         }
     }
 }
