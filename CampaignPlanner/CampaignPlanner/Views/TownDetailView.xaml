@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CampaignPlanner.Views.TownDetailView"
+             Title="Town">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save Changes" Command="{Binding UpdateTownCommand}" />
+        <ToolbarItem Text="Delete" Command="{Binding DeleteTownCommand}" />
+    </ContentPage.ToolbarItems>
+
+    <StackLayout Spacing="20" Padding="15">
+        <Label Text="Name" FontSize="Medium" />
+        <Entry Text="{Binding Name, Mode=TwoWay}" FontSize="Medium" />
+    </StackLayout>
+
+</ContentPage>

@@ -12,6 +12,7 @@ namespace CampaignPlanner.Utility
     {
         public static TownOverviewViewModel TownOverviewViewModel { get; set; } = new TownOverviewViewModel(App.TownDataService);
         public static NewTownViewModel NewTownViewModel { get; set; } = new NewTownViewModel(App.TownDataService);
+        public static TownDetailViewModel TownDetailViewModel { get; set; } = new TownDetailViewModel(App.TownDataService);
     }
 }
 

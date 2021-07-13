@@ -16,6 +16,8 @@ namespace CampaignPlanner.ViewModels
     {
         private ObservableCollection<Town> _towns;
         private ITownDataService<Town> _townDataService;
+        private Town _selectedTown;
+
         public ObservableCollection<Town> Towns
         {
             get => _towns;
@@ -26,21 +28,35 @@ namespace CampaignPlanner.ViewModels
             }
         }
 
+        public Command<Town> TownTapped { get; }
+
 
         public ICommand LoadCommand { get; }
         public ICommand AddTownCommand { get; }
+
+        public Town SelectedTown
+        {
+            get => _selectedTown;
+            set
+            {
+                SetProperty(ref _selectedTown, value);
+                OnTownSelected(value);
+            }
+        }
 
         public TownOverviewViewModel(ITownDataService<Town> townDataService)
         {
             _townDataService = townDataService;
             LoadCommand = new Command(async () => await ExecuteLoadTownsCommand());
             AddTownCommand = new Command(OnAddTown);
+            TownTapped = new Command<Town>(OnTownSelected);
             Towns = new ObservableCollection<Town>();
         }
 
         public void OnAppearing()
         {
             IsBusy = true;
+            SelectedTown = null;
         }
 
         async Task ExecuteLoadTownsCommand()
@@ -69,6 +85,14 @@ namespace CampaignPlanner.ViewModels
         private async void OnAddTown(object obj)
         {
             await Shell.Current.GoToAsync(nameof(NewTownView));
+        }
+
+        async void OnTownSelected(Town town)
+        {
+            if (town == null)
+                return;
+
+            await Shell.Current.GoToAsync($"{nameof(TownDetailView)}?{nameof(TownDetailViewModel.TownId)}={town.Id}");
         }
 
     }

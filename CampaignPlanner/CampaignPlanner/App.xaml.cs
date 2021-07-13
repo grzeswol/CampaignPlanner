@@ -14,7 +14,6 @@ namespace CampaignPlanner
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
             MainPage = new AppShell();
             //SeedData();
         }

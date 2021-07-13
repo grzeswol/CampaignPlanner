@@ -22,13 +22,25 @@ namespace CampaignPlanner.Services
 
         public async Task<bool> DeleteItemAsync(int id)
         {
-            throw new NotImplementedException();
+            using (var context = new CampaignPlannerContext())
+            {
+                var town = context.Towns.FirstOrDefault(t => t.Id == id);
+                context.Towns.Remove(town);
+                await context.SaveChangesAsync();
+
+            }
+            return await Task.FromResult(true);
         }
 
         public async Task<Town> GetItemAsync(int id)
         {
-            throw new NotImplementedException();
+            var result = new Town();
+            using (var context = new CampaignPlannerContext())
+            {
+                result = context.Towns.FirstOrDefault(t => t.Id == id);
+            }
 
+            return await Task.FromResult(result);
         }
 
         public async Task<IEnumerable<Town>> GetItemsAsync(bool forceRefresh = false)
@@ -44,7 +56,13 @@ namespace CampaignPlanner.Services
 
         public async Task<bool> UpdateItemAsync(Town item)
         {
-            throw new NotImplementedException();
+            using (var context = new CampaignPlannerContext())
+            {
+                var town = context.Towns.FirstOrDefault(t => t.Id == item.Id);
+                town.Name = item.Name;
+                await context.SaveChangesAsync();
+            }
+            return await Task.FromResult(true);
         }
     }
 }
