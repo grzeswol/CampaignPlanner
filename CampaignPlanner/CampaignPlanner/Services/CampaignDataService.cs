@@ -10,28 +10,29 @@ namespace CampaignPlanner.Services
 {
     public class CampaignDataService : IDataService<Campaign>
     {
-        public async Task<bool> AddItemAsync(Campaign campaign)
+        public async Task<int> AddItemAsync(Campaign campaign)
         {
             using (var context = new CampaignPlannerContext())
             {
                 try
                 {
-                    var town = context.Towns.FirstOrDefault(t => t.Id == campaign.Town.Id);
-                    context.Towns.Attach(town);
-                    campaign.Town = town;
+                    var keywords = campaign.Keywords;
+                    context.Towns.Attach(campaign.Town);
+                    foreach (var keyword in campaign.Keywords)
+                    {
+                        context.Keywords.Attach(keyword);
+                    }
                     context.Campaigns.Add(campaign);
-                    await context.SaveChangesAsync();
+                    return await context.SaveChangesAsync();
                 }
                 catch (Exception ex)
                 {
-                    throw;
+                    throw ex;
                 }
             }
-
-            return await Task.FromResult(true);
         }
 
-        public async Task<bool> DeleteItemAsync(int id)
+        public async Task<int> DeleteItemAsync(int id)
         {
             using (var context = new CampaignPlannerContext())
             {
@@ -39,35 +40,32 @@ namespace CampaignPlanner.Services
                 {
                     var campaign = context.Campaigns.FirstOrDefault(t => t.Id == id);
                     context.Campaigns.Remove(campaign);
-                    await context.SaveChangesAsync();
+                    return await context.SaveChangesAsync();
                 }
                 catch (Exception ex)
                 {
-                    throw;
+                    throw ex;
                 }
-
             }
-            return await Task.FromResult(true);
         }
 
-        public async Task<bool> DeleteAllItemsAsync()
+        public async Task<int> DeleteAllItemsAsync()
         {
             using (var context = new CampaignPlannerContext())
             {
                 try
                 {
                     context.RemoveRange(context.Campaigns);
-                    await context.SaveChangesAsync();
+                    return await context.SaveChangesAsync();
                 }
                 catch (Exception ex)
                 {
 
-                    throw;
+                    throw ex;
                 }
 
 
             }
-            return await Task.FromResult(true);
         }
 
         public async Task<Campaign> GetItemAsync(int id)
@@ -75,39 +73,46 @@ namespace CampaignPlanner.Services
             var result = new Campaign();
             using (var context = new CampaignPlannerContext())
             {
-                result = context.Campaigns.Include(t => t.Town).FirstOrDefault(t => t.Id == id);
+                return await context.Campaigns.Include(t => t.Town).Include(t => t.Keywords).FirstOrDefaultAsync(t => t.Id == id);
             }
-
-            return await Task.FromResult(result);
         }
 
         public async Task<IEnumerable<Campaign>> GetItemsAsync(bool forceRefresh = false)
         {
-            var result = new List<Campaign>();
             using (var context = new CampaignPlannerContext())
             {
-                result = context.Campaigns.ToList();
+                return await context.Campaigns.ToListAsync();
             }
-
-            return await Task.FromResult(result);
         }
 
-        public async Task<bool> UpdateItemAsync(Campaign item)
+        public async Task<int> UpdateItemAsync(Campaign item)
         {
             using (var context = new CampaignPlannerContext())
             {
-                var dbCampaign = context.Campaigns.Include(t => t.Town).FirstOrDefault(t => t.Id == item.Id);
-                var IsNewTown = dbCampaign.Town.Id != item.Town.Id;
-
+                var dbCampaign = context.Campaigns.FirstOrDefault(t => t.Id == item.Id);
                 context.Entry(dbCampaign).CurrentValues.SetValues(item);
-                if (IsNewTown)
+                dbCampaign.Keywords.Clear();
+                foreach (var keyword in item.Keywords)
                 {
-                    var town = context.Towns.FirstOrDefault(t => t.Id == item.Town.Id);
-                    dbCampaign.Town = town;
+                    var dbKeyword = context.Keywords.FirstOrDefault(k => k.Id == keyword.Id);
+                    dbCampaign.Keywords.Add(dbKeyword);
                 }
-                await context.SaveChangesAsync();
+                dbCampaign.Town = context.Towns.FirstOrDefault(t => t.Id == item.Town.Id);
+                return await context.SaveChangesAsync();
             }
-            return await Task.FromResult(true);
+        }
+
+        public IEnumerable<Campaign> GetItems()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Campaign GetItem(int id)
+        {
+            using (var context = new CampaignPlannerContext())
+            {
+                return context.Campaigns.Include(t => t.Town).Include(t => t.Keywords).FirstOrDefault(t => t.Id == id);
+            }
         }
     }
 }

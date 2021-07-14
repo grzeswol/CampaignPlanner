@@ -74,7 +74,7 @@ namespace CampaignPlanner.ViewModels
             }
             catch (Exception ex)
             {
-                Debug.WriteLine(ex);
+                Debug.WriteLine("Failed to Load Towns", ex.Message);
             }
             finally
             {

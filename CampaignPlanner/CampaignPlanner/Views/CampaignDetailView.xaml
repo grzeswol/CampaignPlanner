@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:rise="clr-namespace:Xamarin.RisePlugin.AutoCompleteTextView;assembly=Xamarin.RisePlugin.AutoCompleteTextView"
              x:Class="CampaignPlanner.Views.CampaignDetailView"
              Title="Campaign">
 
@@ -9,24 +10,53 @@
         <ToolbarItem Text="Delete" Command="{Binding DeleteCommand}" />
     </ContentPage.ToolbarItems>
 
-    <StackLayout Spacing="3" Padding="15">
-        <Label Text="{Binding EmeraldAccountFunds, StringFormat='Emerald Funds: {0:N}'}" FontSize="Medium" />
-        <Label Text="Name" FontSize="Medium" />
-        <Entry Text="{Binding Name, Mode=TwoWay}" FontSize="Medium" />
-        <Label Text="Bid Amount" FontSize="Medium" />
-        <Entry Text="{Binding BidAmount, Mode=TwoWay}" FontSize="Medium" Keyboard="Numeric"/>
-        <Label Text="Campaign Funds" FontSize="Medium" />
-        <Entry Text="{Binding CampaignFund, Mode=TwoWay}" FontSize="Medium" Keyboard="Numeric" ReturnCommand="{Binding CampaignFundCommand}" />
-        <Label Text="Status" FontSize="Medium" />
-        <Switch 
+    <ScrollView>
+        <StackLayout Spacing="3" Padding="15">
+            <Label Text="{Binding EmeraldAccountFunds, StringFormat='Emerald Funds: {0:N}'}" FontSize="Medium" />
+            <Label Text="Name" FontSize="Medium" />
+            <Entry Text="{Binding Name, Mode=TwoWay}" FontSize="Medium" />
+            <Label Text="Keywords" FontSize="Medium" />
+            <rise:AutoCompleteTextView x:Name="auto" HeightRequest="50" VerticalOptions="EndAndExpand"   
+                NamePath="Name"
+                ItemsSource="{Binding Keywords}" 
+                SelectedItemsSource="{Binding SelectedKeywords}"
+                BackButtonPressDeleteSelected="True"
+                SelectionMode="Multiple"
+                SelectAfterText="Clear"
+                SameItemControl="True"
+                SearchType="Contains">
+
+                <rise:AutoCompleteTextView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Orientation="Horizontal" HeightRequest="80" BackgroundColor="Blue">
+                            <Label Text="{Binding Name}" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" Margin="5" TextColor="White"></Label>
+                        </StackLayout>
+                    </DataTemplate>
+                </rise:AutoCompleteTextView.ItemTemplate>
+
+                <rise:AutoCompleteTextView.SelectedItemTemplate>
+                    <DataTemplate>
+                        <StackLayout BackgroundColor="Blue" Margin="5" >
+                            <Label Text="{Binding Name}" Margin="5" LineBreakMode="TailTruncation" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" TextColor="White"></Label>
+                        </StackLayout>
+                    </DataTemplate>
+                </rise:AutoCompleteTextView.SelectedItemTemplate>
+            </rise:AutoCompleteTextView>
+            <Label Text="Bid Amount" FontSize="Medium" />
+            <Entry Text="{Binding BidAmount, Mode=TwoWay}" FontSize="Medium" Keyboard="Numeric"/>
+            <Label Text="Campaign Funds" FontSize="Medium" />
+            <Entry Text="{Binding CampaignFund, Mode=TwoWay}" FontSize="Medium" Keyboard="Numeric" ReturnCommand="{Binding CampaignFundCommand}" />
+            <Label Text="Status" FontSize="Medium" />
+            <Switch 
                    IsToggled="{Binding Status, Mode=TwoWay}"
                    ></Switch>
-        <Picker Title="Select town"
+            <Picker Title="Select town"
                 TitleColor="Blue"
                 ItemsSource="{Binding Towns}"
                 ItemDisplayBinding="{Binding Name}"
                 SelectedItem="{Binding SelectedTown, Mode=TwoWay}"/>
-        <Label Text="Radius" FontSize="Medium" />
-        <Entry Text="{Binding Radius, Mode=TwoWay}" FontSize="Medium" Keyboard="Numeric"/>
-    </StackLayout>
+            <Label Text="Radius" FontSize="Medium" />
+            <Entry Text="{Binding Radius, Mode=TwoWay}" FontSize="Medium" Keyboard="Numeric"/>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

@@ -2,6 +2,7 @@
 using CampaignPlanner.Services;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
 using System.Windows.Input;
 using Xamarin.Forms;
@@ -50,10 +51,18 @@ namespace CampaignPlanner.ViewModels
                 Name = Name
             };
 
-
-            await _townDataService.AddItemAsync(town);
-
-            await Shell.Current.GoToAsync("..");
+            try
+            {
+                await _townDataService.AddItemAsync(town);
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine("Failed to Save Town", ex.Message);
+            }
+            finally
+            {
+                await Shell.Current.GoToAsync("..");
+            }
         }
     }
 }

@@ -7465,6 +7465,2519 @@ namespace CampaignPlanner.Droid
 			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_bottom_start = global::CampaignPlanner.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
 			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_top_start = global::CampaignPlanner.Droid.Resource.Xml.standalone_badge_gravity_top_start;
 			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_offset = global::CampaignPlanner.Droid.Resource.Xml.standalone_badge_offset;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animation.abc_fade_in = global::CampaignPlanner.Droid.Resource.Animation.abc_fade_in;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animation.abc_fade_out = global::CampaignPlanner.Droid.Resource.Animation.abc_fade_out;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::CampaignPlanner.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animation.abc_popup_enter = global::CampaignPlanner.Droid.Resource.Animation.abc_popup_enter;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animation.abc_popup_exit = global::CampaignPlanner.Droid.Resource.Animation.abc_popup_exit;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::CampaignPlanner.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animation.abc_slide_in_bottom = global::CampaignPlanner.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animation.abc_slide_in_top = global::CampaignPlanner.Droid.Resource.Animation.abc_slide_in_top;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animation.abc_slide_out_bottom = global::CampaignPlanner.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animation.abc_slide_out_top = global::CampaignPlanner.Droid.Resource.Animation.abc_slide_out_top;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animation.abc_tooltip_enter = global::CampaignPlanner.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animation.abc_tooltip_exit = global::CampaignPlanner.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::CampaignPlanner.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::CampaignPlanner.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animation.design_snackbar_in = global::CampaignPlanner.Droid.Resource.Animation.design_snackbar_in;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animation.design_snackbar_out = global::CampaignPlanner.Droid.Resource.Animation.design_snackbar_out;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animation.EnterFromLeft = global::CampaignPlanner.Droid.Resource.Animation.EnterFromLeft;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animation.EnterFromRight = global::CampaignPlanner.Droid.Resource.Animation.EnterFromRight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animation.ExitToLeft = global::CampaignPlanner.Droid.Resource.Animation.ExitToLeft;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animation.ExitToRight = global::CampaignPlanner.Droid.Resource.Animation.ExitToRight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animator.design_appbar_state_list_animator = global::CampaignPlanner.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animator.design_fab_hide_motion_spec = global::CampaignPlanner.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animator.design_fab_show_motion_spec = global::CampaignPlanner.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animator.mtrl_btn_state_list_anim = global::CampaignPlanner.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::CampaignPlanner.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animator.mtrl_chip_state_list_anim = global::CampaignPlanner.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animator.mtrl_fab_hide_motion_spec = global::CampaignPlanner.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animator.mtrl_fab_show_motion_spec = global::CampaignPlanner.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::CampaignPlanner.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::CampaignPlanner.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionBarDivider = global::CampaignPlanner.Droid.Resource.Attribute.actionBarDivider;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionBarItemBackground = global::CampaignPlanner.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionBarPopupTheme = global::CampaignPlanner.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionBarSize = global::CampaignPlanner.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionBarSplitStyle = global::CampaignPlanner.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionBarStyle = global::CampaignPlanner.Droid.Resource.Attribute.actionBarStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionBarTabBarStyle = global::CampaignPlanner.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionBarTabStyle = global::CampaignPlanner.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionBarTabTextStyle = global::CampaignPlanner.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionBarTheme = global::CampaignPlanner.Droid.Resource.Attribute.actionBarTheme;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionBarWidgetTheme = global::CampaignPlanner.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionButtonStyle = global::CampaignPlanner.Droid.Resource.Attribute.actionButtonStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionDropDownStyle = global::CampaignPlanner.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionLayout = global::CampaignPlanner.Droid.Resource.Attribute.actionLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionMenuTextAppearance = global::CampaignPlanner.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionMenuTextColor = global::CampaignPlanner.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionModeBackground = global::CampaignPlanner.Droid.Resource.Attribute.actionModeBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::CampaignPlanner.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionModeCloseDrawable = global::CampaignPlanner.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionModeCopyDrawable = global::CampaignPlanner.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionModeCutDrawable = global::CampaignPlanner.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionModeFindDrawable = global::CampaignPlanner.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionModePasteDrawable = global::CampaignPlanner.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionModePopupWindowStyle = global::CampaignPlanner.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::CampaignPlanner.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionModeShareDrawable = global::CampaignPlanner.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionModeSplitBackground = global::CampaignPlanner.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionModeStyle = global::CampaignPlanner.Droid.Resource.Attribute.actionModeStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::CampaignPlanner.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionOverflowButtonStyle = global::CampaignPlanner.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionOverflowMenuStyle = global::CampaignPlanner.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionProviderClass = global::CampaignPlanner.Droid.Resource.Attribute.actionProviderClass;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.actionViewClass = global::CampaignPlanner.Droid.Resource.Attribute.actionViewClass;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.activityChooserViewStyle = global::CampaignPlanner.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::CampaignPlanner.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.alertDialogCenterButtons = global::CampaignPlanner.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.alertDialogStyle = global::CampaignPlanner.Droid.Resource.Attribute.alertDialogStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.alertDialogTheme = global::CampaignPlanner.Droid.Resource.Attribute.alertDialogTheme;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.allowStacking = global::CampaignPlanner.Droid.Resource.Attribute.allowStacking;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.alpha = global::CampaignPlanner.Droid.Resource.Attribute.alpha;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.alphabeticModifiers = global::CampaignPlanner.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.arrowHeadLength = global::CampaignPlanner.Droid.Resource.Attribute.arrowHeadLength;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.arrowShaftLength = global::CampaignPlanner.Droid.Resource.Attribute.arrowShaftLength;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::CampaignPlanner.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.autoSizeMaxTextSize = global::CampaignPlanner.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.autoSizeMinTextSize = global::CampaignPlanner.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.autoSizePresetSizes = global::CampaignPlanner.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.autoSizeStepGranularity = global::CampaignPlanner.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.autoSizeTextType = global::CampaignPlanner.Droid.Resource.Attribute.autoSizeTextType;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.background = global::CampaignPlanner.Droid.Resource.Attribute.background;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.backgroundSplit = global::CampaignPlanner.Droid.Resource.Attribute.backgroundSplit;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.backgroundStacked = global::CampaignPlanner.Droid.Resource.Attribute.backgroundStacked;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.backgroundTint = global::CampaignPlanner.Droid.Resource.Attribute.backgroundTint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.backgroundTintMode = global::CampaignPlanner.Droid.Resource.Attribute.backgroundTintMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.barLength = global::CampaignPlanner.Droid.Resource.Attribute.barLength;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.behavior_autoHide = global::CampaignPlanner.Droid.Resource.Attribute.behavior_autoHide;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.behavior_fitToContents = global::CampaignPlanner.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.behavior_hideable = global::CampaignPlanner.Droid.Resource.Attribute.behavior_hideable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.behavior_overlapTop = global::CampaignPlanner.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.behavior_peekHeight = global::CampaignPlanner.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.behavior_skipCollapsed = global::CampaignPlanner.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.borderlessButtonStyle = global::CampaignPlanner.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.borderWidth = global::CampaignPlanner.Droid.Resource.Attribute.borderWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.bottomAppBarStyle = global::CampaignPlanner.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.bottomNavigationStyle = global::CampaignPlanner.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.bottomSheetDialogTheme = global::CampaignPlanner.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.bottomSheetStyle = global::CampaignPlanner.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.boxBackgroundColor = global::CampaignPlanner.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.boxBackgroundMode = global::CampaignPlanner.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.boxCollapsedPaddingTop = global::CampaignPlanner.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.boxCornerRadiusBottomEnd = global::CampaignPlanner.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.boxCornerRadiusBottomStart = global::CampaignPlanner.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.boxCornerRadiusTopEnd = global::CampaignPlanner.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.boxCornerRadiusTopStart = global::CampaignPlanner.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.boxStrokeColor = global::CampaignPlanner.Droid.Resource.Attribute.boxStrokeColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.boxStrokeWidth = global::CampaignPlanner.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.buttonBarButtonStyle = global::CampaignPlanner.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::CampaignPlanner.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::CampaignPlanner.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::CampaignPlanner.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.buttonBarStyle = global::CampaignPlanner.Droid.Resource.Attribute.buttonBarStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.buttonGravity = global::CampaignPlanner.Droid.Resource.Attribute.buttonGravity;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.buttonIconDimen = global::CampaignPlanner.Droid.Resource.Attribute.buttonIconDimen;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.buttonPanelSideLayout = global::CampaignPlanner.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.buttonStyle = global::CampaignPlanner.Droid.Resource.Attribute.buttonStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.buttonStyleSmall = global::CampaignPlanner.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.buttonTint = global::CampaignPlanner.Droid.Resource.Attribute.buttonTint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.buttonTintMode = global::CampaignPlanner.Droid.Resource.Attribute.buttonTintMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.cardBackgroundColor = global::CampaignPlanner.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.cardCornerRadius = global::CampaignPlanner.Droid.Resource.Attribute.cardCornerRadius;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.cardElevation = global::CampaignPlanner.Droid.Resource.Attribute.cardElevation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.cardMaxElevation = global::CampaignPlanner.Droid.Resource.Attribute.cardMaxElevation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.cardPreventCornerOverlap = global::CampaignPlanner.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.cardUseCompatPadding = global::CampaignPlanner.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.cardViewStyle = global::CampaignPlanner.Droid.Resource.Attribute.cardViewStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.checkboxStyle = global::CampaignPlanner.Droid.Resource.Attribute.checkboxStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.checkedChip = global::CampaignPlanner.Droid.Resource.Attribute.checkedChip;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.checkedIcon = global::CampaignPlanner.Droid.Resource.Attribute.checkedIcon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.checkedIconEnabled = global::CampaignPlanner.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.checkedIconVisible = global::CampaignPlanner.Droid.Resource.Attribute.checkedIconVisible;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.checkedTextViewStyle = global::CampaignPlanner.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.chipBackgroundColor = global::CampaignPlanner.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.chipCornerRadius = global::CampaignPlanner.Droid.Resource.Attribute.chipCornerRadius;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.chipEndPadding = global::CampaignPlanner.Droid.Resource.Attribute.chipEndPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.chipGroupStyle = global::CampaignPlanner.Droid.Resource.Attribute.chipGroupStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.chipIcon = global::CampaignPlanner.Droid.Resource.Attribute.chipIcon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.chipIconEnabled = global::CampaignPlanner.Droid.Resource.Attribute.chipIconEnabled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.chipIconSize = global::CampaignPlanner.Droid.Resource.Attribute.chipIconSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.chipIconTint = global::CampaignPlanner.Droid.Resource.Attribute.chipIconTint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.chipIconVisible = global::CampaignPlanner.Droid.Resource.Attribute.chipIconVisible;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.chipMinHeight = global::CampaignPlanner.Droid.Resource.Attribute.chipMinHeight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.chipSpacing = global::CampaignPlanner.Droid.Resource.Attribute.chipSpacing;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.chipSpacingHorizontal = global::CampaignPlanner.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.chipSpacingVertical = global::CampaignPlanner.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.chipStandaloneStyle = global::CampaignPlanner.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.chipStartPadding = global::CampaignPlanner.Droid.Resource.Attribute.chipStartPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.chipStrokeColor = global::CampaignPlanner.Droid.Resource.Attribute.chipStrokeColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.chipStrokeWidth = global::CampaignPlanner.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.chipStyle = global::CampaignPlanner.Droid.Resource.Attribute.chipStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.closeIcon = global::CampaignPlanner.Droid.Resource.Attribute.closeIcon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.closeIconEnabled = global::CampaignPlanner.Droid.Resource.Attribute.closeIconEnabled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.closeIconEndPadding = global::CampaignPlanner.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.closeIconSize = global::CampaignPlanner.Droid.Resource.Attribute.closeIconSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.closeIconStartPadding = global::CampaignPlanner.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.closeIconTint = global::CampaignPlanner.Droid.Resource.Attribute.closeIconTint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.closeIconVisible = global::CampaignPlanner.Droid.Resource.Attribute.closeIconVisible;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.closeItemLayout = global::CampaignPlanner.Droid.Resource.Attribute.closeItemLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.collapseContentDescription = global::CampaignPlanner.Droid.Resource.Attribute.collapseContentDescription;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.collapsedTitleGravity = global::CampaignPlanner.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::CampaignPlanner.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.collapseIcon = global::CampaignPlanner.Droid.Resource.Attribute.collapseIcon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.color = global::CampaignPlanner.Droid.Resource.Attribute.color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.colorAccent = global::CampaignPlanner.Droid.Resource.Attribute.colorAccent;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.colorBackgroundFloating = global::CampaignPlanner.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.colorButtonNormal = global::CampaignPlanner.Droid.Resource.Attribute.colorButtonNormal;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.colorControlActivated = global::CampaignPlanner.Droid.Resource.Attribute.colorControlActivated;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.colorControlHighlight = global::CampaignPlanner.Droid.Resource.Attribute.colorControlHighlight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.colorControlNormal = global::CampaignPlanner.Droid.Resource.Attribute.colorControlNormal;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.colorError = global::CampaignPlanner.Droid.Resource.Attribute.colorError;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.colorPrimary = global::CampaignPlanner.Droid.Resource.Attribute.colorPrimary;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.colorPrimaryDark = global::CampaignPlanner.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.colorSecondary = global::CampaignPlanner.Droid.Resource.Attribute.colorSecondary;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.colorSwitchThumbNormal = global::CampaignPlanner.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.commitIcon = global::CampaignPlanner.Droid.Resource.Attribute.commitIcon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.contentDescription = global::CampaignPlanner.Droid.Resource.Attribute.contentDescription;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.contentInsetEnd = global::CampaignPlanner.Droid.Resource.Attribute.contentInsetEnd;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.contentInsetEndWithActions = global::CampaignPlanner.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.contentInsetLeft = global::CampaignPlanner.Droid.Resource.Attribute.contentInsetLeft;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.contentInsetRight = global::CampaignPlanner.Droid.Resource.Attribute.contentInsetRight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.contentInsetStart = global::CampaignPlanner.Droid.Resource.Attribute.contentInsetStart;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::CampaignPlanner.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.contentPadding = global::CampaignPlanner.Droid.Resource.Attribute.contentPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.contentPaddingBottom = global::CampaignPlanner.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.contentPaddingLeft = global::CampaignPlanner.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.contentPaddingRight = global::CampaignPlanner.Droid.Resource.Attribute.contentPaddingRight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.contentPaddingTop = global::CampaignPlanner.Droid.Resource.Attribute.contentPaddingTop;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.contentScrim = global::CampaignPlanner.Droid.Resource.Attribute.contentScrim;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.controlBackground = global::CampaignPlanner.Droid.Resource.Attribute.controlBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.coordinatorLayoutStyle = global::CampaignPlanner.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.cornerRadius = global::CampaignPlanner.Droid.Resource.Attribute.cornerRadius;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.counterEnabled = global::CampaignPlanner.Droid.Resource.Attribute.counterEnabled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.counterMaxLength = global::CampaignPlanner.Droid.Resource.Attribute.counterMaxLength;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.counterOverflowTextAppearance = global::CampaignPlanner.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.counterTextAppearance = global::CampaignPlanner.Droid.Resource.Attribute.counterTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.customNavigationLayout = global::CampaignPlanner.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.defaultQueryHint = global::CampaignPlanner.Droid.Resource.Attribute.defaultQueryHint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.dialogCornerRadius = global::CampaignPlanner.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.dialogPreferredPadding = global::CampaignPlanner.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.dialogTheme = global::CampaignPlanner.Droid.Resource.Attribute.dialogTheme;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.displayOptions = global::CampaignPlanner.Droid.Resource.Attribute.displayOptions;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.divider = global::CampaignPlanner.Droid.Resource.Attribute.divider;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.dividerHorizontal = global::CampaignPlanner.Droid.Resource.Attribute.dividerHorizontal;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.dividerPadding = global::CampaignPlanner.Droid.Resource.Attribute.dividerPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.dividerVertical = global::CampaignPlanner.Droid.Resource.Attribute.dividerVertical;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.drawableSize = global::CampaignPlanner.Droid.Resource.Attribute.drawableSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.drawerArrowStyle = global::CampaignPlanner.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::CampaignPlanner.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.dropDownListViewStyle = global::CampaignPlanner.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.editTextBackground = global::CampaignPlanner.Droid.Resource.Attribute.editTextBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.editTextColor = global::CampaignPlanner.Droid.Resource.Attribute.editTextColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.editTextStyle = global::CampaignPlanner.Droid.Resource.Attribute.editTextStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.elevation = global::CampaignPlanner.Droid.Resource.Attribute.elevation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.enforceMaterialTheme = global::CampaignPlanner.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.enforceTextAppearance = global::CampaignPlanner.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.errorEnabled = global::CampaignPlanner.Droid.Resource.Attribute.errorEnabled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.errorTextAppearance = global::CampaignPlanner.Droid.Resource.Attribute.errorTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::CampaignPlanner.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.expanded = global::CampaignPlanner.Droid.Resource.Attribute.expanded;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.expandedTitleGravity = global::CampaignPlanner.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.expandedTitleMargin = global::CampaignPlanner.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.expandedTitleMarginBottom = global::CampaignPlanner.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.expandedTitleMarginEnd = global::CampaignPlanner.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.expandedTitleMarginStart = global::CampaignPlanner.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.expandedTitleMarginTop = global::CampaignPlanner.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.expandedTitleTextAppearance = global::CampaignPlanner.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.fabAlignmentMode = global::CampaignPlanner.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.fabCradleMargin = global::CampaignPlanner.Droid.Resource.Attribute.fabCradleMargin;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.fabCradleRoundedCornerRadius = global::CampaignPlanner.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.fabCradleVerticalOffset = global::CampaignPlanner.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.fabCustomSize = global::CampaignPlanner.Droid.Resource.Attribute.fabCustomSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.fabSize = global::CampaignPlanner.Droid.Resource.Attribute.fabSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.fastScrollEnabled = global::CampaignPlanner.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::CampaignPlanner.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::CampaignPlanner.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable = global::CampaignPlanner.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable = global::CampaignPlanner.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.firstBaselineToTopHeight = global::CampaignPlanner.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.floatingActionButtonStyle = global::CampaignPlanner.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.font = global::CampaignPlanner.Droid.Resource.Attribute.font;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.fontFamily = global::CampaignPlanner.Droid.Resource.Attribute.fontFamily;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.fontProviderAuthority = global::CampaignPlanner.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.fontProviderCerts = global::CampaignPlanner.Droid.Resource.Attribute.fontProviderCerts;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.fontProviderFetchStrategy = global::CampaignPlanner.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.fontProviderFetchTimeout = global::CampaignPlanner.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.fontProviderPackage = global::CampaignPlanner.Droid.Resource.Attribute.fontProviderPackage;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.fontProviderQuery = global::CampaignPlanner.Droid.Resource.Attribute.fontProviderQuery;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.fontStyle = global::CampaignPlanner.Droid.Resource.Attribute.fontStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.fontVariationSettings = global::CampaignPlanner.Droid.Resource.Attribute.fontVariationSettings;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.fontWeight = global::CampaignPlanner.Droid.Resource.Attribute.fontWeight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.foregroundInsidePadding = global::CampaignPlanner.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.gapBetweenBars = global::CampaignPlanner.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.goIcon = global::CampaignPlanner.Droid.Resource.Attribute.goIcon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.headerLayout = global::CampaignPlanner.Droid.Resource.Attribute.headerLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.height = global::CampaignPlanner.Droid.Resource.Attribute.height;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.helperText = global::CampaignPlanner.Droid.Resource.Attribute.helperText;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.helperTextEnabled = global::CampaignPlanner.Droid.Resource.Attribute.helperTextEnabled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.helperTextTextAppearance = global::CampaignPlanner.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.hideMotionSpec = global::CampaignPlanner.Droid.Resource.Attribute.hideMotionSpec;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.hideOnContentScroll = global::CampaignPlanner.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.hideOnScroll = global::CampaignPlanner.Droid.Resource.Attribute.hideOnScroll;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.hintAnimationEnabled = global::CampaignPlanner.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.hintEnabled = global::CampaignPlanner.Droid.Resource.Attribute.hintEnabled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.hintTextAppearance = global::CampaignPlanner.Droid.Resource.Attribute.hintTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.homeAsUpIndicator = global::CampaignPlanner.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.homeLayout = global::CampaignPlanner.Droid.Resource.Attribute.homeLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.hoveredFocusedTranslationZ = global::CampaignPlanner.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.icon = global::CampaignPlanner.Droid.Resource.Attribute.icon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.iconEndPadding = global::CampaignPlanner.Droid.Resource.Attribute.iconEndPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.iconGravity = global::CampaignPlanner.Droid.Resource.Attribute.iconGravity;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.iconifiedByDefault = global::CampaignPlanner.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.iconPadding = global::CampaignPlanner.Droid.Resource.Attribute.iconPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.iconSize = global::CampaignPlanner.Droid.Resource.Attribute.iconSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.iconStartPadding = global::CampaignPlanner.Droid.Resource.Attribute.iconStartPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.iconTint = global::CampaignPlanner.Droid.Resource.Attribute.iconTint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.iconTintMode = global::CampaignPlanner.Droid.Resource.Attribute.iconTintMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.imageButtonStyle = global::CampaignPlanner.Droid.Resource.Attribute.imageButtonStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.indeterminateProgressStyle = global::CampaignPlanner.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.initialActivityCount = global::CampaignPlanner.Droid.Resource.Attribute.initialActivityCount;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.insetForeground = global::CampaignPlanner.Droid.Resource.Attribute.insetForeground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.isLightTheme = global::CampaignPlanner.Droid.Resource.Attribute.isLightTheme;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.itemBackground = global::CampaignPlanner.Droid.Resource.Attribute.itemBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.itemHorizontalPadding = global::CampaignPlanner.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.itemHorizontalTranslationEnabled = global::CampaignPlanner.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.itemIconPadding = global::CampaignPlanner.Droid.Resource.Attribute.itemIconPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.itemIconSize = global::CampaignPlanner.Droid.Resource.Attribute.itemIconSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.itemIconTint = global::CampaignPlanner.Droid.Resource.Attribute.itemIconTint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.itemPadding = global::CampaignPlanner.Droid.Resource.Attribute.itemPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.itemSpacing = global::CampaignPlanner.Droid.Resource.Attribute.itemSpacing;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.itemTextAppearance = global::CampaignPlanner.Droid.Resource.Attribute.itemTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.itemTextAppearanceActive = global::CampaignPlanner.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.itemTextAppearanceInactive = global::CampaignPlanner.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.itemTextColor = global::CampaignPlanner.Droid.Resource.Attribute.itemTextColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.keylines = global::CampaignPlanner.Droid.Resource.Attribute.keylines;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.labelVisibilityMode = global::CampaignPlanner.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.lastBaselineToBottomHeight = global::CampaignPlanner.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.layout = global::CampaignPlanner.Droid.Resource.Attribute.layout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.layoutManager = global::CampaignPlanner.Droid.Resource.Attribute.layoutManager;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.layout_anchor = global::CampaignPlanner.Droid.Resource.Attribute.layout_anchor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.layout_anchorGravity = global::CampaignPlanner.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.layout_behavior = global::CampaignPlanner.Droid.Resource.Attribute.layout_behavior;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.layout_collapseMode = global::CampaignPlanner.Droid.Resource.Attribute.layout_collapseMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::CampaignPlanner.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::CampaignPlanner.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.layout_insetEdge = global::CampaignPlanner.Droid.Resource.Attribute.layout_insetEdge;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.layout_keyline = global::CampaignPlanner.Droid.Resource.Attribute.layout_keyline;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.layout_scrollFlags = global::CampaignPlanner.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.layout_scrollInterpolator = global::CampaignPlanner.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.liftOnScroll = global::CampaignPlanner.Droid.Resource.Attribute.liftOnScroll;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.lineHeight = global::CampaignPlanner.Droid.Resource.Attribute.lineHeight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.lineSpacing = global::CampaignPlanner.Droid.Resource.Attribute.lineSpacing;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::CampaignPlanner.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.listDividerAlertDialog = global::CampaignPlanner.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.listItemLayout = global::CampaignPlanner.Droid.Resource.Attribute.listItemLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.listLayout = global::CampaignPlanner.Droid.Resource.Attribute.listLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.listMenuViewStyle = global::CampaignPlanner.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.listPopupWindowStyle = global::CampaignPlanner.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.listPreferredItemHeight = global::CampaignPlanner.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::CampaignPlanner.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::CampaignPlanner.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::CampaignPlanner.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::CampaignPlanner.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.logo = global::CampaignPlanner.Droid.Resource.Attribute.logo;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.logoDescription = global::CampaignPlanner.Droid.Resource.Attribute.logoDescription;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.materialButtonStyle = global::CampaignPlanner.Droid.Resource.Attribute.materialButtonStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.materialCardViewStyle = global::CampaignPlanner.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.maxActionInlineWidth = global::CampaignPlanner.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.maxButtonHeight = global::CampaignPlanner.Droid.Resource.Attribute.maxButtonHeight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.maxImageSize = global::CampaignPlanner.Droid.Resource.Attribute.maxImageSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.measureWithLargestChild = global::CampaignPlanner.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.menu = global::CampaignPlanner.Droid.Resource.Attribute.menu;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.multiChoiceItemLayout = global::CampaignPlanner.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.navigationContentDescription = global::CampaignPlanner.Droid.Resource.Attribute.navigationContentDescription;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.navigationIcon = global::CampaignPlanner.Droid.Resource.Attribute.navigationIcon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.navigationMode = global::CampaignPlanner.Droid.Resource.Attribute.navigationMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.navigationViewStyle = global::CampaignPlanner.Droid.Resource.Attribute.navigationViewStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.numericModifiers = global::CampaignPlanner.Droid.Resource.Attribute.numericModifiers;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.overlapAnchor = global::CampaignPlanner.Droid.Resource.Attribute.overlapAnchor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.paddingBottomNoButtons = global::CampaignPlanner.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.paddingEnd = global::CampaignPlanner.Droid.Resource.Attribute.paddingEnd;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.paddingStart = global::CampaignPlanner.Droid.Resource.Attribute.paddingStart;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.paddingTopNoTitle = global::CampaignPlanner.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.panelBackground = global::CampaignPlanner.Droid.Resource.Attribute.panelBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.panelMenuListTheme = global::CampaignPlanner.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.panelMenuListWidth = global::CampaignPlanner.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.passwordToggleContentDescription = global::CampaignPlanner.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.passwordToggleDrawable = global::CampaignPlanner.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.passwordToggleEnabled = global::CampaignPlanner.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.passwordToggleTint = global::CampaignPlanner.Droid.Resource.Attribute.passwordToggleTint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.passwordToggleTintMode = global::CampaignPlanner.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.popupMenuStyle = global::CampaignPlanner.Droid.Resource.Attribute.popupMenuStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.popupTheme = global::CampaignPlanner.Droid.Resource.Attribute.popupTheme;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.popupWindowStyle = global::CampaignPlanner.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.preserveIconSpacing = global::CampaignPlanner.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.pressedTranslationZ = global::CampaignPlanner.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.progressBarPadding = global::CampaignPlanner.Droid.Resource.Attribute.progressBarPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.progressBarStyle = global::CampaignPlanner.Droid.Resource.Attribute.progressBarStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.queryBackground = global::CampaignPlanner.Droid.Resource.Attribute.queryBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.queryHint = global::CampaignPlanner.Droid.Resource.Attribute.queryHint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.radioButtonStyle = global::CampaignPlanner.Droid.Resource.Attribute.radioButtonStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.ratingBarStyle = global::CampaignPlanner.Droid.Resource.Attribute.ratingBarStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.ratingBarStyleIndicator = global::CampaignPlanner.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.ratingBarStyleSmall = global::CampaignPlanner.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.reverseLayout = global::CampaignPlanner.Droid.Resource.Attribute.reverseLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.rippleColor = global::CampaignPlanner.Droid.Resource.Attribute.rippleColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.scrimAnimationDuration = global::CampaignPlanner.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.scrimBackground = global::CampaignPlanner.Droid.Resource.Attribute.scrimBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::CampaignPlanner.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.searchHintIcon = global::CampaignPlanner.Droid.Resource.Attribute.searchHintIcon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.searchIcon = global::CampaignPlanner.Droid.Resource.Attribute.searchIcon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.searchViewStyle = global::CampaignPlanner.Droid.Resource.Attribute.searchViewStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.seekBarStyle = global::CampaignPlanner.Droid.Resource.Attribute.seekBarStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.selectableItemBackground = global::CampaignPlanner.Droid.Resource.Attribute.selectableItemBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::CampaignPlanner.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.showAsAction = global::CampaignPlanner.Droid.Resource.Attribute.showAsAction;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.showDividers = global::CampaignPlanner.Droid.Resource.Attribute.showDividers;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.showMotionSpec = global::CampaignPlanner.Droid.Resource.Attribute.showMotionSpec;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.showText = global::CampaignPlanner.Droid.Resource.Attribute.showText;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.showTitle = global::CampaignPlanner.Droid.Resource.Attribute.showTitle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.singleChoiceItemLayout = global::CampaignPlanner.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.singleLine = global::CampaignPlanner.Droid.Resource.Attribute.singleLine;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.singleSelection = global::CampaignPlanner.Droid.Resource.Attribute.singleSelection;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.snackbarButtonStyle = global::CampaignPlanner.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.snackbarStyle = global::CampaignPlanner.Droid.Resource.Attribute.snackbarStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.spanCount = global::CampaignPlanner.Droid.Resource.Attribute.spanCount;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.spinBars = global::CampaignPlanner.Droid.Resource.Attribute.spinBars;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::CampaignPlanner.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.spinnerStyle = global::CampaignPlanner.Droid.Resource.Attribute.spinnerStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.splitTrack = global::CampaignPlanner.Droid.Resource.Attribute.splitTrack;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.srcCompat = global::CampaignPlanner.Droid.Resource.Attribute.srcCompat;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.stackFromEnd = global::CampaignPlanner.Droid.Resource.Attribute.stackFromEnd;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.state_above_anchor = global::CampaignPlanner.Droid.Resource.Attribute.state_above_anchor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.state_collapsed = global::CampaignPlanner.Droid.Resource.Attribute.state_collapsed;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.state_collapsible = global::CampaignPlanner.Droid.Resource.Attribute.state_collapsible;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.state_liftable = global::CampaignPlanner.Droid.Resource.Attribute.state_liftable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.state_lifted = global::CampaignPlanner.Droid.Resource.Attribute.state_lifted;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.statusBarBackground = global::CampaignPlanner.Droid.Resource.Attribute.statusBarBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.statusBarScrim = global::CampaignPlanner.Droid.Resource.Attribute.statusBarScrim;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.strokeColor = global::CampaignPlanner.Droid.Resource.Attribute.strokeColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.strokeWidth = global::CampaignPlanner.Droid.Resource.Attribute.strokeWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.subMenuArrow = global::CampaignPlanner.Droid.Resource.Attribute.subMenuArrow;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.submitBackground = global::CampaignPlanner.Droid.Resource.Attribute.submitBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.subtitle = global::CampaignPlanner.Droid.Resource.Attribute.subtitle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.subtitleTextAppearance = global::CampaignPlanner.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.subtitleTextColor = global::CampaignPlanner.Droid.Resource.Attribute.subtitleTextColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.subtitleTextStyle = global::CampaignPlanner.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.suggestionRowLayout = global::CampaignPlanner.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.switchMinWidth = global::CampaignPlanner.Droid.Resource.Attribute.switchMinWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.switchPadding = global::CampaignPlanner.Droid.Resource.Attribute.switchPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.switchStyle = global::CampaignPlanner.Droid.Resource.Attribute.switchStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.switchTextAppearance = global::CampaignPlanner.Droid.Resource.Attribute.switchTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tabBackground = global::CampaignPlanner.Droid.Resource.Attribute.tabBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tabContentStart = global::CampaignPlanner.Droid.Resource.Attribute.tabContentStart;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tabGravity = global::CampaignPlanner.Droid.Resource.Attribute.tabGravity;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tabIconTint = global::CampaignPlanner.Droid.Resource.Attribute.tabIconTint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tabIconTintMode = global::CampaignPlanner.Droid.Resource.Attribute.tabIconTintMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tabIndicator = global::CampaignPlanner.Droid.Resource.Attribute.tabIndicator;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tabIndicatorAnimationDuration = global::CampaignPlanner.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tabIndicatorColor = global::CampaignPlanner.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tabIndicatorFullWidth = global::CampaignPlanner.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tabIndicatorGravity = global::CampaignPlanner.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tabIndicatorHeight = global::CampaignPlanner.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tabInlineLabel = global::CampaignPlanner.Droid.Resource.Attribute.tabInlineLabel;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tabMaxWidth = global::CampaignPlanner.Droid.Resource.Attribute.tabMaxWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tabMinWidth = global::CampaignPlanner.Droid.Resource.Attribute.tabMinWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tabMode = global::CampaignPlanner.Droid.Resource.Attribute.tabMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tabPadding = global::CampaignPlanner.Droid.Resource.Attribute.tabPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tabPaddingBottom = global::CampaignPlanner.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tabPaddingEnd = global::CampaignPlanner.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tabPaddingStart = global::CampaignPlanner.Droid.Resource.Attribute.tabPaddingStart;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tabPaddingTop = global::CampaignPlanner.Droid.Resource.Attribute.tabPaddingTop;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tabRippleColor = global::CampaignPlanner.Droid.Resource.Attribute.tabRippleColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tabSelectedTextColor = global::CampaignPlanner.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tabStyle = global::CampaignPlanner.Droid.Resource.Attribute.tabStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tabTextAppearance = global::CampaignPlanner.Droid.Resource.Attribute.tabTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tabTextColor = global::CampaignPlanner.Droid.Resource.Attribute.tabTextColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tabUnboundedRipple = global::CampaignPlanner.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.textAllCaps = global::CampaignPlanner.Droid.Resource.Attribute.textAllCaps;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.textAppearanceBody1 = global::CampaignPlanner.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.textAppearanceBody2 = global::CampaignPlanner.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.textAppearanceButton = global::CampaignPlanner.Droid.Resource.Attribute.textAppearanceButton;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.textAppearanceCaption = global::CampaignPlanner.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.textAppearanceHeadline1 = global::CampaignPlanner.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.textAppearanceHeadline2 = global::CampaignPlanner.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.textAppearanceHeadline3 = global::CampaignPlanner.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.textAppearanceHeadline4 = global::CampaignPlanner.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.textAppearanceHeadline5 = global::CampaignPlanner.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.textAppearanceHeadline6 = global::CampaignPlanner.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::CampaignPlanner.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.textAppearanceListItem = global::CampaignPlanner.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::CampaignPlanner.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.textAppearanceListItemSmall = global::CampaignPlanner.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.textAppearanceOverline = global::CampaignPlanner.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::CampaignPlanner.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::CampaignPlanner.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::CampaignPlanner.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::CampaignPlanner.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.textAppearanceSubtitle1 = global::CampaignPlanner.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.textAppearanceSubtitle2 = global::CampaignPlanner.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.textColorAlertDialogListItem = global::CampaignPlanner.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.textColorSearchUrl = global::CampaignPlanner.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.textEndPadding = global::CampaignPlanner.Droid.Resource.Attribute.textEndPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.textInputStyle = global::CampaignPlanner.Droid.Resource.Attribute.textInputStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.textStartPadding = global::CampaignPlanner.Droid.Resource.Attribute.textStartPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.theme = global::CampaignPlanner.Droid.Resource.Attribute.theme;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.thickness = global::CampaignPlanner.Droid.Resource.Attribute.thickness;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.thumbTextPadding = global::CampaignPlanner.Droid.Resource.Attribute.thumbTextPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.thumbTint = global::CampaignPlanner.Droid.Resource.Attribute.thumbTint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.thumbTintMode = global::CampaignPlanner.Droid.Resource.Attribute.thumbTintMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tickMark = global::CampaignPlanner.Droid.Resource.Attribute.tickMark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tickMarkTint = global::CampaignPlanner.Droid.Resource.Attribute.tickMarkTint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tickMarkTintMode = global::CampaignPlanner.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tint = global::CampaignPlanner.Droid.Resource.Attribute.tint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tintMode = global::CampaignPlanner.Droid.Resource.Attribute.tintMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.title = global::CampaignPlanner.Droid.Resource.Attribute.title;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.titleEnabled = global::CampaignPlanner.Droid.Resource.Attribute.titleEnabled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.titleMargin = global::CampaignPlanner.Droid.Resource.Attribute.titleMargin;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.titleMarginBottom = global::CampaignPlanner.Droid.Resource.Attribute.titleMarginBottom;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.titleMarginEnd = global::CampaignPlanner.Droid.Resource.Attribute.titleMarginEnd;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.titleMargins = global::CampaignPlanner.Droid.Resource.Attribute.titleMargins;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.titleMarginStart = global::CampaignPlanner.Droid.Resource.Attribute.titleMarginStart;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.titleMarginTop = global::CampaignPlanner.Droid.Resource.Attribute.titleMarginTop;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.titleTextAppearance = global::CampaignPlanner.Droid.Resource.Attribute.titleTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.titleTextColor = global::CampaignPlanner.Droid.Resource.Attribute.titleTextColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.titleTextStyle = global::CampaignPlanner.Droid.Resource.Attribute.titleTextStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.toolbarId = global::CampaignPlanner.Droid.Resource.Attribute.toolbarId;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::CampaignPlanner.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.toolbarStyle = global::CampaignPlanner.Droid.Resource.Attribute.toolbarStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tooltipForegroundColor = global::CampaignPlanner.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tooltipFrameBackground = global::CampaignPlanner.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.tooltipText = global::CampaignPlanner.Droid.Resource.Attribute.tooltipText;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.track = global::CampaignPlanner.Droid.Resource.Attribute.track;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.trackTint = global::CampaignPlanner.Droid.Resource.Attribute.trackTint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.trackTintMode = global::CampaignPlanner.Droid.Resource.Attribute.trackTintMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.ttcIndex = global::CampaignPlanner.Droid.Resource.Attribute.ttcIndex;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.useCompatPadding = global::CampaignPlanner.Droid.Resource.Attribute.useCompatPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.viewInflaterClass = global::CampaignPlanner.Droid.Resource.Attribute.viewInflaterClass;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.voiceIcon = global::CampaignPlanner.Droid.Resource.Attribute.voiceIcon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.windowActionBar = global::CampaignPlanner.Droid.Resource.Attribute.windowActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.windowActionBarOverlay = global::CampaignPlanner.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.windowActionModeOverlay = global::CampaignPlanner.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.windowFixedHeightMajor = global::CampaignPlanner.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.windowFixedHeightMinor = global::CampaignPlanner.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.windowFixedWidthMajor = global::CampaignPlanner.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.windowFixedWidthMinor = global::CampaignPlanner.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.windowMinWidthMajor = global::CampaignPlanner.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.windowMinWidthMinor = global::CampaignPlanner.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Attribute.windowNoTitle = global::CampaignPlanner.Droid.Resource.Attribute.windowNoTitle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::CampaignPlanner.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::CampaignPlanner.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::CampaignPlanner.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::CampaignPlanner.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::CampaignPlanner.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::CampaignPlanner.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::CampaignPlanner.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.abc_btn_colored_text_material = global::CampaignPlanner.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.abc_color_highlight_material = global::CampaignPlanner.Droid.Resource.Color.abc_color_highlight_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.abc_hint_foreground_material_dark = global::CampaignPlanner.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.abc_hint_foreground_material_light = global::CampaignPlanner.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::CampaignPlanner.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::CampaignPlanner.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.abc_primary_text_material_dark = global::CampaignPlanner.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.abc_primary_text_material_light = global::CampaignPlanner.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.abc_search_url_text = global::CampaignPlanner.Droid.Resource.Color.abc_search_url_text;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.abc_search_url_text_normal = global::CampaignPlanner.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.abc_search_url_text_pressed = global::CampaignPlanner.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.abc_search_url_text_selected = global::CampaignPlanner.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.abc_secondary_text_material_dark = global::CampaignPlanner.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.abc_secondary_text_material_light = global::CampaignPlanner.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.abc_tint_btn_checkable = global::CampaignPlanner.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.abc_tint_default = global::CampaignPlanner.Droid.Resource.Color.abc_tint_default;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.abc_tint_edittext = global::CampaignPlanner.Droid.Resource.Color.abc_tint_edittext;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.abc_tint_seek_thumb = global::CampaignPlanner.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.abc_tint_spinner = global::CampaignPlanner.Droid.Resource.Color.abc_tint_spinner;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.abc_tint_switch_track = global::CampaignPlanner.Droid.Resource.Color.abc_tint_switch_track;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.accent_material_dark = global::CampaignPlanner.Droid.Resource.Color.accent_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.accent_material_light = global::CampaignPlanner.Droid.Resource.Color.accent_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.background_floating_material_dark = global::CampaignPlanner.Droid.Resource.Color.background_floating_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.background_floating_material_light = global::CampaignPlanner.Droid.Resource.Color.background_floating_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.background_material_dark = global::CampaignPlanner.Droid.Resource.Color.background_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.background_material_light = global::CampaignPlanner.Droid.Resource.Color.background_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::CampaignPlanner.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.bright_foreground_disabled_material_light = global::CampaignPlanner.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::CampaignPlanner.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.bright_foreground_inverse_material_light = global::CampaignPlanner.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.bright_foreground_material_dark = global::CampaignPlanner.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.bright_foreground_material_light = global::CampaignPlanner.Droid.Resource.Color.bright_foreground_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.browser_actions_bg_grey = global::CampaignPlanner.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.browser_actions_divider_color = global::CampaignPlanner.Droid.Resource.Color.browser_actions_divider_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.browser_actions_text_color = global::CampaignPlanner.Droid.Resource.Color.browser_actions_text_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.browser_actions_title_color = global::CampaignPlanner.Droid.Resource.Color.browser_actions_title_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.button_material_dark = global::CampaignPlanner.Droid.Resource.Color.button_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.button_material_light = global::CampaignPlanner.Droid.Resource.Color.button_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.cardview_dark_background = global::CampaignPlanner.Droid.Resource.Color.cardview_dark_background;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.cardview_light_background = global::CampaignPlanner.Droid.Resource.Color.cardview_light_background;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.cardview_shadow_end_color = global::CampaignPlanner.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.cardview_shadow_start_color = global::CampaignPlanner.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::CampaignPlanner.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.design_default_color_primary = global::CampaignPlanner.Droid.Resource.Color.design_default_color_primary;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.design_default_color_primary_dark = global::CampaignPlanner.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.design_error = global::CampaignPlanner.Droid.Resource.Color.design_error;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.design_fab_shadow_end_color = global::CampaignPlanner.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.design_fab_shadow_mid_color = global::CampaignPlanner.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.design_fab_shadow_start_color = global::CampaignPlanner.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::CampaignPlanner.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::CampaignPlanner.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::CampaignPlanner.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::CampaignPlanner.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.design_snackbar_background_color = global::CampaignPlanner.Droid.Resource.Color.design_snackbar_background_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::CampaignPlanner.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.dim_foreground_disabled_material_light = global::CampaignPlanner.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.dim_foreground_material_dark = global::CampaignPlanner.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.dim_foreground_material_light = global::CampaignPlanner.Droid.Resource.Color.dim_foreground_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.error_color_material_dark = global::CampaignPlanner.Droid.Resource.Color.error_color_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.error_color_material_light = global::CampaignPlanner.Droid.Resource.Color.error_color_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.foreground_material_dark = global::CampaignPlanner.Droid.Resource.Color.foreground_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.foreground_material_light = global::CampaignPlanner.Droid.Resource.Color.foreground_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.highlighted_text_material_dark = global::CampaignPlanner.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.highlighted_text_material_light = global::CampaignPlanner.Droid.Resource.Color.highlighted_text_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.material_blue_grey_800 = global::CampaignPlanner.Droid.Resource.Color.material_blue_grey_800;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.material_blue_grey_900 = global::CampaignPlanner.Droid.Resource.Color.material_blue_grey_900;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.material_blue_grey_950 = global::CampaignPlanner.Droid.Resource.Color.material_blue_grey_950;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.material_deep_teal_200 = global::CampaignPlanner.Droid.Resource.Color.material_deep_teal_200;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.material_deep_teal_500 = global::CampaignPlanner.Droid.Resource.Color.material_deep_teal_500;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.material_grey_100 = global::CampaignPlanner.Droid.Resource.Color.material_grey_100;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.material_grey_300 = global::CampaignPlanner.Droid.Resource.Color.material_grey_300;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.material_grey_50 = global::CampaignPlanner.Droid.Resource.Color.material_grey_50;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.material_grey_600 = global::CampaignPlanner.Droid.Resource.Color.material_grey_600;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.material_grey_800 = global::CampaignPlanner.Droid.Resource.Color.material_grey_800;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.material_grey_850 = global::CampaignPlanner.Droid.Resource.Color.material_grey_850;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.material_grey_900 = global::CampaignPlanner.Droid.Resource.Color.material_grey_900;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::CampaignPlanner.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.mtrl_bottom_nav_item_tint = global::CampaignPlanner.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.mtrl_btn_bg_color_selector = global::CampaignPlanner.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.mtrl_btn_ripple_color = global::CampaignPlanner.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.mtrl_btn_stroke_color_selector = global::CampaignPlanner.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color = global::CampaignPlanner.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.mtrl_btn_text_color_disabled = global::CampaignPlanner.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.mtrl_btn_text_color_selector = global::CampaignPlanner.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.mtrl_btn_transparent_bg_color = global::CampaignPlanner.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.mtrl_chip_background_color = global::CampaignPlanner.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.mtrl_chip_close_icon_tint = global::CampaignPlanner.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.mtrl_chip_ripple_color = global::CampaignPlanner.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.mtrl_chip_text_color = global::CampaignPlanner.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.mtrl_fab_ripple_color = global::CampaignPlanner.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.mtrl_scrim_color = global::CampaignPlanner.Droid.Resource.Color.mtrl_scrim_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.mtrl_tabs_colored_ripple_color = global::CampaignPlanner.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.mtrl_tabs_icon_color_selector = global::CampaignPlanner.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::CampaignPlanner.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::CampaignPlanner.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.mtrl_tabs_ripple_color = global::CampaignPlanner.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color = global::CampaignPlanner.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.mtrl_textinput_disabled_color = global::CampaignPlanner.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::CampaignPlanner.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::CampaignPlanner.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.mtrl_text_btn_text_color_selector = global::CampaignPlanner.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.notification_action_color_filter = global::CampaignPlanner.Droid.Resource.Color.notification_action_color_filter;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.notification_icon_bg_color = global::CampaignPlanner.Droid.Resource.Color.notification_icon_bg_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.notification_material_background_media_default_color = global::CampaignPlanner.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.primary_dark_material_dark = global::CampaignPlanner.Droid.Resource.Color.primary_dark_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.primary_dark_material_light = global::CampaignPlanner.Droid.Resource.Color.primary_dark_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.primary_material_dark = global::CampaignPlanner.Droid.Resource.Color.primary_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.primary_material_light = global::CampaignPlanner.Droid.Resource.Color.primary_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.primary_text_default_material_dark = global::CampaignPlanner.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.primary_text_default_material_light = global::CampaignPlanner.Droid.Resource.Color.primary_text_default_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.primary_text_disabled_material_dark = global::CampaignPlanner.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.primary_text_disabled_material_light = global::CampaignPlanner.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.ripple_material_dark = global::CampaignPlanner.Droid.Resource.Color.ripple_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.ripple_material_light = global::CampaignPlanner.Droid.Resource.Color.ripple_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.secondary_text_default_material_dark = global::CampaignPlanner.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.secondary_text_default_material_light = global::CampaignPlanner.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.secondary_text_disabled_material_dark = global::CampaignPlanner.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.secondary_text_disabled_material_light = global::CampaignPlanner.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::CampaignPlanner.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.switch_thumb_disabled_material_light = global::CampaignPlanner.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.switch_thumb_material_dark = global::CampaignPlanner.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.switch_thumb_material_light = global::CampaignPlanner.Droid.Resource.Color.switch_thumb_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.switch_thumb_normal_material_dark = global::CampaignPlanner.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.switch_thumb_normal_material_light = global::CampaignPlanner.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.tooltip_background_dark = global::CampaignPlanner.Droid.Resource.Color.tooltip_background_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Color.tooltip_background_light = global::CampaignPlanner.Droid.Resource.Color.tooltip_background_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::CampaignPlanner.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::CampaignPlanner.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::CampaignPlanner.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_action_button_min_height_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_action_button_min_width_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::CampaignPlanner.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_alert_dialog_button_dimen = global::CampaignPlanner.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::CampaignPlanner.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::CampaignPlanner.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_control_corner_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_control_inset_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_control_padding_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_dialog_corner_radius_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::CampaignPlanner.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::CampaignPlanner.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::CampaignPlanner.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::CampaignPlanner.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::CampaignPlanner.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::CampaignPlanner.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_dialog_min_width_major = global::CampaignPlanner.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::CampaignPlanner.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_dialog_padding_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::CampaignPlanner.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::CampaignPlanner.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::CampaignPlanner.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::CampaignPlanner.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::CampaignPlanner.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_floating_window_z = global::CampaignPlanner.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_panel_menu_list_width = global::CampaignPlanner.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_progress_bar_height_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_search_view_preferred_height = global::CampaignPlanner.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_search_view_preferred_width = global::CampaignPlanner.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_switch_padding = global::CampaignPlanner.Droid.Resource.Dimension.abc_switch_padding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_text_size_body_1_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_text_size_body_2_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_text_size_button_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_text_size_caption_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_text_size_display_1_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_text_size_display_2_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_text_size_display_3_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_text_size_display_4_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_text_size_headline_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_text_size_large_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_text_size_medium_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_text_size_menu_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_text_size_small_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_text_size_subhead_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::CampaignPlanner.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_text_size_title_material = global::CampaignPlanner.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::CampaignPlanner.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.browser_actions_context_menu_max_width = global::CampaignPlanner.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.browser_actions_context_menu_min_padding = global::CampaignPlanner.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::CampaignPlanner.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.cardview_default_elevation = global::CampaignPlanner.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.cardview_default_radius = global::CampaignPlanner.Droid.Resource.Dimension.cardview_default_radius;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.compat_button_inset_horizontal_material = global::CampaignPlanner.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.compat_button_inset_vertical_material = global::CampaignPlanner.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.compat_button_padding_horizontal_material = global::CampaignPlanner.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.compat_button_padding_vertical_material = global::CampaignPlanner.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.compat_control_corner_material = global::CampaignPlanner.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.compat_notification_large_icon_max_height = global::CampaignPlanner.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.compat_notification_large_icon_max_width = global::CampaignPlanner.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_appbar_elevation = global::CampaignPlanner.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::CampaignPlanner.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::CampaignPlanner.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::CampaignPlanner.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::CampaignPlanner.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_bottom_navigation_height = global::CampaignPlanner.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_bottom_navigation_icon_size = global::CampaignPlanner.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::CampaignPlanner.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::CampaignPlanner.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_bottom_navigation_margin = global::CampaignPlanner.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::CampaignPlanner.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::CampaignPlanner.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::CampaignPlanner.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::CampaignPlanner.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_fab_border_width = global::CampaignPlanner.Droid.Resource.Dimension.design_fab_border_width;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_fab_elevation = global::CampaignPlanner.Droid.Resource.Dimension.design_fab_elevation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_fab_image_size = global::CampaignPlanner.Droid.Resource.Dimension.design_fab_image_size;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_fab_size_mini = global::CampaignPlanner.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_fab_size_normal = global::CampaignPlanner.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused = global::CampaignPlanner.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::CampaignPlanner.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_navigation_elevation = global::CampaignPlanner.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_navigation_icon_padding = global::CampaignPlanner.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_navigation_icon_size = global::CampaignPlanner.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_navigation_item_horizontal_padding = global::CampaignPlanner.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_navigation_item_icon_padding = global::CampaignPlanner.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_navigation_max_width = global::CampaignPlanner.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_navigation_padding_bottom = global::CampaignPlanner.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::CampaignPlanner.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::CampaignPlanner.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::CampaignPlanner.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_snackbar_elevation = global::CampaignPlanner.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::CampaignPlanner.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_snackbar_max_width = global::CampaignPlanner.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_snackbar_min_width = global::CampaignPlanner.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::CampaignPlanner.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::CampaignPlanner.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::CampaignPlanner.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_snackbar_text_size = global::CampaignPlanner.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_tab_max_width = global::CampaignPlanner.Droid.Resource.Dimension.design_tab_max_width;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::CampaignPlanner.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_tab_text_size = global::CampaignPlanner.Droid.Resource.Dimension.design_tab_text_size;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_tab_text_size_2line = global::CampaignPlanner.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.design_textinput_caption_translate_y = global::CampaignPlanner.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.disabled_alpha_material_dark = global::CampaignPlanner.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.disabled_alpha_material_light = global::CampaignPlanner.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.fastscroll_default_thickness = global::CampaignPlanner.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.fastscroll_margin = global::CampaignPlanner.Droid.Resource.Dimension.fastscroll_margin;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.fastscroll_minimum_range = global::CampaignPlanner.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.highlight_alpha_material_colored = global::CampaignPlanner.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.highlight_alpha_material_dark = global::CampaignPlanner.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.highlight_alpha_material_light = global::CampaignPlanner.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.hint_alpha_material_dark = global::CampaignPlanner.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.hint_alpha_material_light = global::CampaignPlanner.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::CampaignPlanner.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::CampaignPlanner.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::CampaignPlanner.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::CampaignPlanner.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::CampaignPlanner.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_bottomappbar_height = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_btn_corner_radius = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_btn_disabled_elevation = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_btn_disabled_z = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_btn_elevation = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_btn_focused_z = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_btn_hovered_z = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_btn_icon_padding = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_btn_inset = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_btn_letter_spacing = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_btn_padding_bottom = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_btn_padding_left = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_btn_padding_right = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_btn_padding_top = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_btn_pressed_z = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_btn_stroke_size = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_btn_text_size = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_btn_z = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_card_elevation = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_card_spacing = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_chip_text_size = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_fab_elevation = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_navigation_elevation = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_snackbar_margin = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.mtrl_toolbar_default_height = global::CampaignPlanner.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.notification_action_icon_size = global::CampaignPlanner.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.notification_action_text_size = global::CampaignPlanner.Droid.Resource.Dimension.notification_action_text_size;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.notification_big_circle_margin = global::CampaignPlanner.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.notification_content_margin_start = global::CampaignPlanner.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.notification_large_icon_height = global::CampaignPlanner.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.notification_large_icon_width = global::CampaignPlanner.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.notification_main_column_padding_top = global::CampaignPlanner.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.notification_media_narrow_margin = global::CampaignPlanner.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.notification_right_icon_size = global::CampaignPlanner.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.notification_right_side_padding_top = global::CampaignPlanner.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.notification_small_icon_background_padding = global::CampaignPlanner.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::CampaignPlanner.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.notification_subtext_size = global::CampaignPlanner.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.notification_top_pad = global::CampaignPlanner.Droid.Resource.Dimension.notification_top_pad;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.notification_top_pad_large_text = global::CampaignPlanner.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.tooltip_corner_radius = global::CampaignPlanner.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.tooltip_horizontal_padding = global::CampaignPlanner.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.tooltip_margin = global::CampaignPlanner.Droid.Resource.Dimension.tooltip_margin;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::CampaignPlanner.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.tooltip_precise_anchor_threshold = global::CampaignPlanner.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.tooltip_vertical_padding = global::CampaignPlanner.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.tooltip_y_offset_non_touch = global::CampaignPlanner.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Dimension.tooltip_y_offset_touch = global::CampaignPlanner.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::CampaignPlanner.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::CampaignPlanner.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_btn_borderless_material = global::CampaignPlanner.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_btn_check_material = global::CampaignPlanner.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::CampaignPlanner.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::CampaignPlanner.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_btn_colored_material = global::CampaignPlanner.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::CampaignPlanner.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_btn_radio_material = global::CampaignPlanner.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::CampaignPlanner.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::CampaignPlanner.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::CampaignPlanner.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::CampaignPlanner.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::CampaignPlanner.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_cab_background_top_material = global::CampaignPlanner.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::CampaignPlanner.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_control_background_material = global::CampaignPlanner.Droid.Resource.Drawable.abc_control_background_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_dialog_material_background = global::CampaignPlanner.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_edit_text_material = global::CampaignPlanner.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_ic_ab_back_material = global::CampaignPlanner.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::CampaignPlanner.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_ic_clear_material = global::CampaignPlanner.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::CampaignPlanner.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::CampaignPlanner.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::CampaignPlanner.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::CampaignPlanner.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::CampaignPlanner.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::CampaignPlanner.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::CampaignPlanner.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::CampaignPlanner.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_ic_search_api_material = global::CampaignPlanner.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::CampaignPlanner.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::CampaignPlanner.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_ic_star_black_48dp = global::CampaignPlanner.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::CampaignPlanner.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::CampaignPlanner.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_ic_star_half_black_48dp = global::CampaignPlanner.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::CampaignPlanner.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_item_background_holo_dark = global::CampaignPlanner.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_item_background_holo_light = global::CampaignPlanner.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_list_divider_material = global::CampaignPlanner.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::CampaignPlanner.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_list_focused_holo = global::CampaignPlanner.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_list_longpressed_holo = global::CampaignPlanner.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::CampaignPlanner.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::CampaignPlanner.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::CampaignPlanner.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::CampaignPlanner.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::CampaignPlanner.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::CampaignPlanner.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::CampaignPlanner.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_list_selector_holo_light = global::CampaignPlanner.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::CampaignPlanner.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::CampaignPlanner.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::CampaignPlanner.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_ratingbar_material = global::CampaignPlanner.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_ratingbar_small_material = global::CampaignPlanner.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::CampaignPlanner.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::CampaignPlanner.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::CampaignPlanner.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::CampaignPlanner.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::CampaignPlanner.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::CampaignPlanner.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::CampaignPlanner.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_seekbar_track_material = global::CampaignPlanner.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::CampaignPlanner.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::CampaignPlanner.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_switch_thumb_material = global::CampaignPlanner.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::CampaignPlanner.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_tab_indicator_material = global::CampaignPlanner.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::CampaignPlanner.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::CampaignPlanner.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::CampaignPlanner.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::CampaignPlanner.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::CampaignPlanner.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_textfield_search_material = global::CampaignPlanner.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_text_cursor_material = global::CampaignPlanner.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::CampaignPlanner.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::CampaignPlanner.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::CampaignPlanner.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::CampaignPlanner.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::CampaignPlanner.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::CampaignPlanner.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.abc_vector_test = global::CampaignPlanner.Droid.Resource.Drawable.abc_vector_test;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.avd_hide_password = global::CampaignPlanner.Droid.Resource.Drawable.avd_hide_password;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.avd_show_password = global::CampaignPlanner.Droid.Resource.Drawable.avd_show_password;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.design_bottom_navigation_item_background = global::CampaignPlanner.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.design_fab_background = global::CampaignPlanner.Droid.Resource.Drawable.design_fab_background;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.design_ic_visibility = global::CampaignPlanner.Droid.Resource.Drawable.design_ic_visibility;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.design_ic_visibility_off = global::CampaignPlanner.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.design_password_eye = global::CampaignPlanner.Droid.Resource.Drawable.design_password_eye;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.design_snackbar_background = global::CampaignPlanner.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.ic_mtrl_chip_checked_black = global::CampaignPlanner.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle = global::CampaignPlanner.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.ic_mtrl_chip_close_circle = global::CampaignPlanner.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.mtrl_tabs_default_indicator = global::CampaignPlanner.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.navigation_empty_icon = global::CampaignPlanner.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.notification_action_background = global::CampaignPlanner.Droid.Resource.Drawable.notification_action_background;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.notification_bg = global::CampaignPlanner.Droid.Resource.Drawable.notification_bg;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.notification_bg_low = global::CampaignPlanner.Droid.Resource.Drawable.notification_bg_low;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.notification_bg_low_normal = global::CampaignPlanner.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.notification_bg_low_pressed = global::CampaignPlanner.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.notification_bg_normal = global::CampaignPlanner.Droid.Resource.Drawable.notification_bg_normal;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.notification_bg_normal_pressed = global::CampaignPlanner.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.notification_icon_background = global::CampaignPlanner.Droid.Resource.Drawable.notification_icon_background;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.notification_template_icon_bg = global::CampaignPlanner.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.notification_template_icon_low_bg = global::CampaignPlanner.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.notification_tile_bg = global::CampaignPlanner.Droid.Resource.Drawable.notification_tile_bg;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::CampaignPlanner.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.tooltip_frame_dark = global::CampaignPlanner.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Drawable.tooltip_frame_light = global::CampaignPlanner.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.action0 = global::CampaignPlanner.Droid.Resource.Id.action0;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.actions = global::CampaignPlanner.Droid.Resource.Id.actions;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.action_bar = global::CampaignPlanner.Droid.Resource.Id.action_bar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.action_bar_activity_content = global::CampaignPlanner.Droid.Resource.Id.action_bar_activity_content;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.action_bar_container = global::CampaignPlanner.Droid.Resource.Id.action_bar_container;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.action_bar_root = global::CampaignPlanner.Droid.Resource.Id.action_bar_root;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.action_bar_spinner = global::CampaignPlanner.Droid.Resource.Id.action_bar_spinner;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.action_bar_subtitle = global::CampaignPlanner.Droid.Resource.Id.action_bar_subtitle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.action_bar_title = global::CampaignPlanner.Droid.Resource.Id.action_bar_title;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.action_container = global::CampaignPlanner.Droid.Resource.Id.action_container;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.action_context_bar = global::CampaignPlanner.Droid.Resource.Id.action_context_bar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.action_divider = global::CampaignPlanner.Droid.Resource.Id.action_divider;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.action_image = global::CampaignPlanner.Droid.Resource.Id.action_image;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.action_menu_divider = global::CampaignPlanner.Droid.Resource.Id.action_menu_divider;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.action_menu_presenter = global::CampaignPlanner.Droid.Resource.Id.action_menu_presenter;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.action_mode_bar = global::CampaignPlanner.Droid.Resource.Id.action_mode_bar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.action_mode_bar_stub = global::CampaignPlanner.Droid.Resource.Id.action_mode_bar_stub;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.action_mode_close_button = global::CampaignPlanner.Droid.Resource.Id.action_mode_close_button;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.action_text = global::CampaignPlanner.Droid.Resource.Id.action_text;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.activity_chooser_view_content = global::CampaignPlanner.Droid.Resource.Id.activity_chooser_view_content;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.add = global::CampaignPlanner.Droid.Resource.Id.add;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.alertTitle = global::CampaignPlanner.Droid.Resource.Id.alertTitle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.all = global::CampaignPlanner.Droid.Resource.Id.all;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.ALT = global::CampaignPlanner.Droid.Resource.Id.ALT;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.always = global::CampaignPlanner.Droid.Resource.Id.always;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.async = global::CampaignPlanner.Droid.Resource.Id.async;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.auto = global::CampaignPlanner.Droid.Resource.Id.auto;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.beginning = global::CampaignPlanner.Droid.Resource.Id.beginning;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.blocking = global::CampaignPlanner.Droid.Resource.Id.blocking;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.bottom = global::CampaignPlanner.Droid.Resource.Id.bottom;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.bottomtab_navarea = global::CampaignPlanner.Droid.Resource.Id.bottomtab_navarea;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.bottomtab_tabbar = global::CampaignPlanner.Droid.Resource.Id.bottomtab_tabbar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.browser_actions_header_text = global::CampaignPlanner.Droid.Resource.Id.browser_actions_header_text;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.browser_actions_menu_items = global::CampaignPlanner.Droid.Resource.Id.browser_actions_menu_items;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.browser_actions_menu_item_icon = global::CampaignPlanner.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.browser_actions_menu_item_text = global::CampaignPlanner.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.browser_actions_menu_view = global::CampaignPlanner.Droid.Resource.Id.browser_actions_menu_view;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.buttonPanel = global::CampaignPlanner.Droid.Resource.Id.buttonPanel;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.cancel_action = global::CampaignPlanner.Droid.Resource.Id.cancel_action;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.center = global::CampaignPlanner.Droid.Resource.Id.center;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.center_horizontal = global::CampaignPlanner.Droid.Resource.Id.center_horizontal;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.center_vertical = global::CampaignPlanner.Droid.Resource.Id.center_vertical;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.checkbox = global::CampaignPlanner.Droid.Resource.Id.checkbox;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.chronometer = global::CampaignPlanner.Droid.Resource.Id.chronometer;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.clip_horizontal = global::CampaignPlanner.Droid.Resource.Id.clip_horizontal;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.clip_vertical = global::CampaignPlanner.Droid.Resource.Id.clip_vertical;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.collapseActionView = global::CampaignPlanner.Droid.Resource.Id.collapseActionView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.container = global::CampaignPlanner.Droid.Resource.Id.container;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.content = global::CampaignPlanner.Droid.Resource.Id.content;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.contentPanel = global::CampaignPlanner.Droid.Resource.Id.contentPanel;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.coordinator = global::CampaignPlanner.Droid.Resource.Id.coordinator;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.CTRL = global::CampaignPlanner.Droid.Resource.Id.CTRL;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.custom = global::CampaignPlanner.Droid.Resource.Id.custom;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.customPanel = global::CampaignPlanner.Droid.Resource.Id.customPanel;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.decor_content_parent = global::CampaignPlanner.Droid.Resource.Id.decor_content_parent;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.default_activity_button = global::CampaignPlanner.Droid.Resource.Id.default_activity_button;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.design_bottom_sheet = global::CampaignPlanner.Droid.Resource.Id.design_bottom_sheet;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.design_menu_item_action_area = global::CampaignPlanner.Droid.Resource.Id.design_menu_item_action_area;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.design_menu_item_action_area_stub = global::CampaignPlanner.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.design_menu_item_text = global::CampaignPlanner.Droid.Resource.Id.design_menu_item_text;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.design_navigation_view = global::CampaignPlanner.Droid.Resource.Id.design_navigation_view;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.disableHome = global::CampaignPlanner.Droid.Resource.Id.disableHome;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.edit_query = global::CampaignPlanner.Droid.Resource.Id.edit_query;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.end = global::CampaignPlanner.Droid.Resource.Id.end;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.end_padder = global::CampaignPlanner.Droid.Resource.Id.end_padder;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.enterAlways = global::CampaignPlanner.Droid.Resource.Id.enterAlways;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.enterAlwaysCollapsed = global::CampaignPlanner.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.exitUntilCollapsed = global::CampaignPlanner.Droid.Resource.Id.exitUntilCollapsed;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.expanded_menu = global::CampaignPlanner.Droid.Resource.Id.expanded_menu;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.expand_activities_button = global::CampaignPlanner.Droid.Resource.Id.expand_activities_button;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.fill = global::CampaignPlanner.Droid.Resource.Id.fill;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.filled = global::CampaignPlanner.Droid.Resource.Id.filled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.fill_horizontal = global::CampaignPlanner.Droid.Resource.Id.fill_horizontal;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.fill_vertical = global::CampaignPlanner.Droid.Resource.Id.fill_vertical;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.@fixed = global::CampaignPlanner.Droid.Resource.Id.@fixed;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.flyoutcontent_appbar = global::CampaignPlanner.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.forever = global::CampaignPlanner.Droid.Resource.Id.forever;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.FUNCTION = global::CampaignPlanner.Droid.Resource.Id.FUNCTION;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.ghost_view = global::CampaignPlanner.Droid.Resource.Id.ghost_view;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.group_divider = global::CampaignPlanner.Droid.Resource.Id.group_divider;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.home = global::CampaignPlanner.Droid.Resource.Id.home;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.homeAsUp = global::CampaignPlanner.Droid.Resource.Id.homeAsUp;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.icon = global::CampaignPlanner.Droid.Resource.Id.icon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.icon_group = global::CampaignPlanner.Droid.Resource.Id.icon_group;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.ifRoom = global::CampaignPlanner.Droid.Resource.Id.ifRoom;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.image = global::CampaignPlanner.Droid.Resource.Id.image;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.info = global::CampaignPlanner.Droid.Resource.Id.info;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.italic = global::CampaignPlanner.Droid.Resource.Id.italic;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.item_touch_helper_previous_elevation = global::CampaignPlanner.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.labeled = global::CampaignPlanner.Droid.Resource.Id.labeled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.largeLabel = global::CampaignPlanner.Droid.Resource.Id.largeLabel;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.left = global::CampaignPlanner.Droid.Resource.Id.left;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.line1 = global::CampaignPlanner.Droid.Resource.Id.line1;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.line3 = global::CampaignPlanner.Droid.Resource.Id.line3;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.listMode = global::CampaignPlanner.Droid.Resource.Id.listMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.list_item = global::CampaignPlanner.Droid.Resource.Id.list_item;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.main_appbar = global::CampaignPlanner.Droid.Resource.Id.main_appbar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.main_tablayout = global::CampaignPlanner.Droid.Resource.Id.main_tablayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.main_toolbar = global::CampaignPlanner.Droid.Resource.Id.main_toolbar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.main_viewpager = global::CampaignPlanner.Droid.Resource.Id.main_viewpager;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.masked = global::CampaignPlanner.Droid.Resource.Id.masked;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.media_actions = global::CampaignPlanner.Droid.Resource.Id.media_actions;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.message = global::CampaignPlanner.Droid.Resource.Id.message;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.META = global::CampaignPlanner.Droid.Resource.Id.META;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.middle = global::CampaignPlanner.Droid.Resource.Id.middle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.mini = global::CampaignPlanner.Droid.Resource.Id.mini;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.mtrl_child_content_container = global::CampaignPlanner.Droid.Resource.Id.mtrl_child_content_container;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.mtrl_internal_children_alpha_tag = global::CampaignPlanner.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.multiply = global::CampaignPlanner.Droid.Resource.Id.multiply;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.navigation_header_container = global::CampaignPlanner.Droid.Resource.Id.navigation_header_container;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.never = global::CampaignPlanner.Droid.Resource.Id.never;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.none = global::CampaignPlanner.Droid.Resource.Id.none;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.normal = global::CampaignPlanner.Droid.Resource.Id.normal;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.notification_background = global::CampaignPlanner.Droid.Resource.Id.notification_background;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.notification_main_column = global::CampaignPlanner.Droid.Resource.Id.notification_main_column;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.notification_main_column_container = global::CampaignPlanner.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.outline = global::CampaignPlanner.Droid.Resource.Id.outline;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.parallax = global::CampaignPlanner.Droid.Resource.Id.parallax;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.parentPanel = global::CampaignPlanner.Droid.Resource.Id.parentPanel;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.parent_matrix = global::CampaignPlanner.Droid.Resource.Id.parent_matrix;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.pin = global::CampaignPlanner.Droid.Resource.Id.pin;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.progress_circular = global::CampaignPlanner.Droid.Resource.Id.progress_circular;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.progress_horizontal = global::CampaignPlanner.Droid.Resource.Id.progress_horizontal;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.radio = global::CampaignPlanner.Droid.Resource.Id.radio;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.right = global::CampaignPlanner.Droid.Resource.Id.right;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.right_icon = global::CampaignPlanner.Droid.Resource.Id.right_icon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.right_side = global::CampaignPlanner.Droid.Resource.Id.right_side;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.save_non_transition_alpha = global::CampaignPlanner.Droid.Resource.Id.save_non_transition_alpha;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.screen = global::CampaignPlanner.Droid.Resource.Id.screen;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.scroll = global::CampaignPlanner.Droid.Resource.Id.scroll;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.scrollable = global::CampaignPlanner.Droid.Resource.Id.scrollable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.scrollIndicatorDown = global::CampaignPlanner.Droid.Resource.Id.scrollIndicatorDown;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.scrollIndicatorUp = global::CampaignPlanner.Droid.Resource.Id.scrollIndicatorUp;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.scrollView = global::CampaignPlanner.Droid.Resource.Id.scrollView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.search_badge = global::CampaignPlanner.Droid.Resource.Id.search_badge;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.search_bar = global::CampaignPlanner.Droid.Resource.Id.search_bar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.search_button = global::CampaignPlanner.Droid.Resource.Id.search_button;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.search_close_btn = global::CampaignPlanner.Droid.Resource.Id.search_close_btn;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.search_edit_frame = global::CampaignPlanner.Droid.Resource.Id.search_edit_frame;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.search_go_btn = global::CampaignPlanner.Droid.Resource.Id.search_go_btn;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.search_mag_icon = global::CampaignPlanner.Droid.Resource.Id.search_mag_icon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.search_plate = global::CampaignPlanner.Droid.Resource.Id.search_plate;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.search_src_text = global::CampaignPlanner.Droid.Resource.Id.search_src_text;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.search_voice_btn = global::CampaignPlanner.Droid.Resource.Id.search_voice_btn;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.selected = global::CampaignPlanner.Droid.Resource.Id.selected;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.select_dialog_listview = global::CampaignPlanner.Droid.Resource.Id.select_dialog_listview;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.shellcontent_appbar = global::CampaignPlanner.Droid.Resource.Id.shellcontent_appbar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.shellcontent_toolbar = global::CampaignPlanner.Droid.Resource.Id.shellcontent_toolbar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.SHIFT = global::CampaignPlanner.Droid.Resource.Id.SHIFT;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.shortcut = global::CampaignPlanner.Droid.Resource.Id.shortcut;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.showCustom = global::CampaignPlanner.Droid.Resource.Id.showCustom;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.showHome = global::CampaignPlanner.Droid.Resource.Id.showHome;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.showTitle = global::CampaignPlanner.Droid.Resource.Id.showTitle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.smallLabel = global::CampaignPlanner.Droid.Resource.Id.smallLabel;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.snackbar_action = global::CampaignPlanner.Droid.Resource.Id.snackbar_action;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.snackbar_text = global::CampaignPlanner.Droid.Resource.Id.snackbar_text;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.snap = global::CampaignPlanner.Droid.Resource.Id.snap;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.snapMargins = global::CampaignPlanner.Droid.Resource.Id.snapMargins;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.spacer = global::CampaignPlanner.Droid.Resource.Id.spacer;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.split_action_bar = global::CampaignPlanner.Droid.Resource.Id.split_action_bar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.src_atop = global::CampaignPlanner.Droid.Resource.Id.src_atop;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.src_in = global::CampaignPlanner.Droid.Resource.Id.src_in;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.src_over = global::CampaignPlanner.Droid.Resource.Id.src_over;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.start = global::CampaignPlanner.Droid.Resource.Id.start;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.status_bar_latest_event_content = global::CampaignPlanner.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.stretch = global::CampaignPlanner.Droid.Resource.Id.stretch;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.submenuarrow = global::CampaignPlanner.Droid.Resource.Id.submenuarrow;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.submit_area = global::CampaignPlanner.Droid.Resource.Id.submit_area;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.SYM = global::CampaignPlanner.Droid.Resource.Id.SYM;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.tabMode = global::CampaignPlanner.Droid.Resource.Id.tabMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.tag_transition_group = global::CampaignPlanner.Droid.Resource.Id.tag_transition_group;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.tag_unhandled_key_event_manager = global::CampaignPlanner.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.tag_unhandled_key_listeners = global::CampaignPlanner.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.text = global::CampaignPlanner.Droid.Resource.Id.text;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.text2 = global::CampaignPlanner.Droid.Resource.Id.text2;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.textinput_counter = global::CampaignPlanner.Droid.Resource.Id.textinput_counter;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.textinput_error = global::CampaignPlanner.Droid.Resource.Id.textinput_error;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.textinput_helper_text = global::CampaignPlanner.Droid.Resource.Id.textinput_helper_text;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.textSpacerNoButtons = global::CampaignPlanner.Droid.Resource.Id.textSpacerNoButtons;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.textSpacerNoTitle = global::CampaignPlanner.Droid.Resource.Id.textSpacerNoTitle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.textStart = global::CampaignPlanner.Droid.Resource.Id.textStart;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.time = global::CampaignPlanner.Droid.Resource.Id.time;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.title = global::CampaignPlanner.Droid.Resource.Id.title;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.titleDividerNoCustom = global::CampaignPlanner.Droid.Resource.Id.titleDividerNoCustom;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.title_template = global::CampaignPlanner.Droid.Resource.Id.title_template;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.top = global::CampaignPlanner.Droid.Resource.Id.top;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.topPanel = global::CampaignPlanner.Droid.Resource.Id.topPanel;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.touch_outside = global::CampaignPlanner.Droid.Resource.Id.touch_outside;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.transition_current_scene = global::CampaignPlanner.Droid.Resource.Id.transition_current_scene;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.transition_layout_save = global::CampaignPlanner.Droid.Resource.Id.transition_layout_save;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.transition_position = global::CampaignPlanner.Droid.Resource.Id.transition_position;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.transition_scene_layoutid_cache = global::CampaignPlanner.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.transition_transform = global::CampaignPlanner.Droid.Resource.Id.transition_transform;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.uniform = global::CampaignPlanner.Droid.Resource.Id.uniform;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.unlabeled = global::CampaignPlanner.Droid.Resource.Id.unlabeled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.up = global::CampaignPlanner.Droid.Resource.Id.up;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.useLogo = global::CampaignPlanner.Droid.Resource.Id.useLogo;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.view_offset_helper = global::CampaignPlanner.Droid.Resource.Id.view_offset_helper;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.visible = global::CampaignPlanner.Droid.Resource.Id.visible;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.withText = global::CampaignPlanner.Droid.Resource.Id.withText;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Id.wrap_content = global::CampaignPlanner.Droid.Resource.Id.wrap_content;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Integer.abc_config_activityDefaultDur = global::CampaignPlanner.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Integer.abc_config_activityShortDur = global::CampaignPlanner.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::CampaignPlanner.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Integer.bottom_sheet_slide_duration = global::CampaignPlanner.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Integer.cancel_button_image_alpha = global::CampaignPlanner.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Integer.config_tooltipAnimTime = global::CampaignPlanner.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Integer.design_snackbar_text_max_lines = global::CampaignPlanner.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms = global::CampaignPlanner.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Integer.hide_password_duration = global::CampaignPlanner.Droid.Resource.Integer.hide_password_duration;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Integer.mtrl_btn_anim_delay_ms = global::CampaignPlanner.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Integer.mtrl_btn_anim_duration_ms = global::CampaignPlanner.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Integer.mtrl_chip_anim_duration = global::CampaignPlanner.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::CampaignPlanner.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Integer.show_password_duration = global::CampaignPlanner.Droid.Resource.Integer.show_password_duration;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::CampaignPlanner.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Interpolator.mtrl_fast_out_linear_in = global::CampaignPlanner.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Interpolator.mtrl_fast_out_slow_in = global::CampaignPlanner.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Interpolator.mtrl_linear = global::CampaignPlanner.Droid.Resource.Interpolator.mtrl_linear;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Interpolator.mtrl_linear_out_slow_in = global::CampaignPlanner.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.abc_action_bar_title_item = global::CampaignPlanner.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.abc_action_bar_up_container = global::CampaignPlanner.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.abc_action_menu_item_layout = global::CampaignPlanner.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.abc_action_menu_layout = global::CampaignPlanner.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.abc_action_mode_bar = global::CampaignPlanner.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.abc_action_mode_close_item_material = global::CampaignPlanner.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.abc_activity_chooser_view = global::CampaignPlanner.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::CampaignPlanner.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::CampaignPlanner.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.abc_alert_dialog_material = global::CampaignPlanner.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.abc_alert_dialog_title_material = global::CampaignPlanner.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.abc_cascading_menu_item_layout = global::CampaignPlanner.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.abc_dialog_title_material = global::CampaignPlanner.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.abc_expanded_menu_layout = global::CampaignPlanner.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::CampaignPlanner.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.abc_list_menu_item_icon = global::CampaignPlanner.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.abc_list_menu_item_layout = global::CampaignPlanner.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.abc_list_menu_item_radio = global::CampaignPlanner.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::CampaignPlanner.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.abc_popup_menu_item_layout = global::CampaignPlanner.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.abc_screen_content_include = global::CampaignPlanner.Droid.Resource.Layout.abc_screen_content_include;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.abc_screen_simple = global::CampaignPlanner.Droid.Resource.Layout.abc_screen_simple;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::CampaignPlanner.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.abc_screen_toolbar = global::CampaignPlanner.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::CampaignPlanner.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.abc_search_view = global::CampaignPlanner.Droid.Resource.Layout.abc_search_view;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.abc_select_dialog_material = global::CampaignPlanner.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.abc_tooltip = global::CampaignPlanner.Droid.Resource.Layout.abc_tooltip;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.adapterList = global::CampaignPlanner.Droid.Resource.Layout.adapterList;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.BottomTabLayout = global::CampaignPlanner.Droid.Resource.Layout.BottomTabLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.browser_actions_context_menu_page = global::CampaignPlanner.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.browser_actions_context_menu_row = global::CampaignPlanner.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.design_bottom_navigation_item = global::CampaignPlanner.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.design_bottom_sheet_dialog = global::CampaignPlanner.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.design_layout_snackbar = global::CampaignPlanner.Droid.Resource.Layout.design_layout_snackbar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.design_layout_snackbar_include = global::CampaignPlanner.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.design_layout_tab_icon = global::CampaignPlanner.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.design_layout_tab_text = global::CampaignPlanner.Droid.Resource.Layout.design_layout_tab_text;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.design_menu_item_action_area = global::CampaignPlanner.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.design_navigation_item = global::CampaignPlanner.Droid.Resource.Layout.design_navigation_item;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.design_navigation_item_header = global::CampaignPlanner.Droid.Resource.Layout.design_navigation_item_header;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.design_navigation_item_separator = global::CampaignPlanner.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.design_navigation_item_subheader = global::CampaignPlanner.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.design_navigation_menu = global::CampaignPlanner.Droid.Resource.Layout.design_navigation_menu;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.design_navigation_menu_item = global::CampaignPlanner.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.FlyoutContent = global::CampaignPlanner.Droid.Resource.Layout.FlyoutContent;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.mtrl_layout_snackbar = global::CampaignPlanner.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.mtrl_layout_snackbar_include = global::CampaignPlanner.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.notification_action = global::CampaignPlanner.Droid.Resource.Layout.notification_action;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.notification_action_tombstone = global::CampaignPlanner.Droid.Resource.Layout.notification_action_tombstone;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.notification_media_action = global::CampaignPlanner.Droid.Resource.Layout.notification_media_action;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.notification_media_cancel_action = global::CampaignPlanner.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.notification_template_big_media = global::CampaignPlanner.Droid.Resource.Layout.notification_template_big_media;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.notification_template_big_media_custom = global::CampaignPlanner.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.notification_template_big_media_narrow = global::CampaignPlanner.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::CampaignPlanner.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.notification_template_custom_big = global::CampaignPlanner.Droid.Resource.Layout.notification_template_custom_big;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.notification_template_icon_group = global::CampaignPlanner.Droid.Resource.Layout.notification_template_icon_group;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.notification_template_lines_media = global::CampaignPlanner.Droid.Resource.Layout.notification_template_lines_media;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.notification_template_media = global::CampaignPlanner.Droid.Resource.Layout.notification_template_media;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.notification_template_media_custom = global::CampaignPlanner.Droid.Resource.Layout.notification_template_media_custom;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.notification_template_part_chronometer = global::CampaignPlanner.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.notification_template_part_time = global::CampaignPlanner.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.RootLayout = global::CampaignPlanner.Droid.Resource.Layout.RootLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.select_dialog_item_material = global::CampaignPlanner.Droid.Resource.Layout.select_dialog_item_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.select_dialog_multichoice_material = global::CampaignPlanner.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.select_dialog_singlechoice_material = global::CampaignPlanner.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.ShellContent = global::CampaignPlanner.Droid.Resource.Layout.ShellContent;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::CampaignPlanner.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.abc_action_bar_home_description = global::CampaignPlanner.Droid.Resource.String.abc_action_bar_home_description;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.abc_action_bar_up_description = global::CampaignPlanner.Droid.Resource.String.abc_action_bar_up_description;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.abc_action_menu_overflow_description = global::CampaignPlanner.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.abc_action_mode_done = global::CampaignPlanner.Droid.Resource.String.abc_action_mode_done;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.abc_activitychooserview_choose_application = global::CampaignPlanner.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.abc_activity_chooser_view_see_all = global::CampaignPlanner.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.abc_capital_off = global::CampaignPlanner.Droid.Resource.String.abc_capital_off;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.abc_capital_on = global::CampaignPlanner.Droid.Resource.String.abc_capital_on;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.abc_menu_alt_shortcut_label = global::CampaignPlanner.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.abc_menu_ctrl_shortcut_label = global::CampaignPlanner.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.abc_menu_delete_shortcut_label = global::CampaignPlanner.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.abc_menu_enter_shortcut_label = global::CampaignPlanner.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.abc_menu_function_shortcut_label = global::CampaignPlanner.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.abc_menu_meta_shortcut_label = global::CampaignPlanner.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.abc_menu_shift_shortcut_label = global::CampaignPlanner.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.abc_menu_space_shortcut_label = global::CampaignPlanner.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.abc_menu_sym_shortcut_label = global::CampaignPlanner.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.abc_prepend_shortcut_label = global::CampaignPlanner.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.abc_searchview_description_clear = global::CampaignPlanner.Droid.Resource.String.abc_searchview_description_clear;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.abc_searchview_description_query = global::CampaignPlanner.Droid.Resource.String.abc_searchview_description_query;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.abc_searchview_description_search = global::CampaignPlanner.Droid.Resource.String.abc_searchview_description_search;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.abc_searchview_description_submit = global::CampaignPlanner.Droid.Resource.String.abc_searchview_description_submit;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.abc_searchview_description_voice = global::CampaignPlanner.Droid.Resource.String.abc_searchview_description_voice;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.abc_search_hint = global::CampaignPlanner.Droid.Resource.String.abc_search_hint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.abc_shareactionprovider_share_with = global::CampaignPlanner.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::CampaignPlanner.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.abc_toolbar_collapse_description = global::CampaignPlanner.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.appbar_scrolling_view_behavior = global::CampaignPlanner.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.app_name = global::CampaignPlanner.Droid.Resource.String.app_name;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.bottom_sheet_behavior = global::CampaignPlanner.Droid.Resource.String.bottom_sheet_behavior;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.character_counter_content_description = global::CampaignPlanner.Droid.Resource.String.character_counter_content_description;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.character_counter_pattern = global::CampaignPlanner.Droid.Resource.String.character_counter_pattern;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.fab_transformation_scrim_behavior = global::CampaignPlanner.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.fab_transformation_sheet_behavior = global::CampaignPlanner.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.hello = global::CampaignPlanner.Droid.Resource.String.hello;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.hide_bottom_view_on_scroll_behavior = global::CampaignPlanner.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.mtrl_chip_close_icon_content_description = global::CampaignPlanner.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.password_toggle_content_description = global::CampaignPlanner.Droid.Resource.String.password_toggle_content_description;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.path_password_eye = global::CampaignPlanner.Droid.Resource.String.path_password_eye;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.path_password_eye_mask_strike_through = global::CampaignPlanner.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.path_password_eye_mask_visible = global::CampaignPlanner.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.path_password_strike_through = global::CampaignPlanner.Droid.Resource.String.path_password_strike_through;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.search_menu_title = global::CampaignPlanner.Droid.Resource.String.search_menu_title;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.String.status_bar_notification_info_overflow = global::CampaignPlanner.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.AlertDialog_AppCompat = global::CampaignPlanner.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::CampaignPlanner.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Animation_AppCompat_Dialog = global::CampaignPlanner.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::CampaignPlanner.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Animation_AppCompat_Tooltip = global::CampaignPlanner.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::CampaignPlanner.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::CampaignPlanner.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::CampaignPlanner.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::CampaignPlanner.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::CampaignPlanner.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip = global::CampaignPlanner.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_CardView = global::CampaignPlanner.Droid.Resource.Style.Base_CardView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::CampaignPlanner.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::CampaignPlanner.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::CampaignPlanner.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::CampaignPlanner.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::CampaignPlanner.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::CampaignPlanner.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::CampaignPlanner.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::CampaignPlanner.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::CampaignPlanner.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::CampaignPlanner.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::CampaignPlanner.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::CampaignPlanner.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_AppCompat = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_MaterialComponents = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::CampaignPlanner.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::CampaignPlanner.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::CampaignPlanner.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V14_Theme_MaterialComponents = global::CampaignPlanner.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::CampaignPlanner.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::CampaignPlanner.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::CampaignPlanner.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::CampaignPlanner.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::CampaignPlanner.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::CampaignPlanner.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::CampaignPlanner.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::CampaignPlanner.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::CampaignPlanner.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::CampaignPlanner.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::CampaignPlanner.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::CampaignPlanner.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::CampaignPlanner.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::CampaignPlanner.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::CampaignPlanner.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V26_Theme_AppCompat = global::CampaignPlanner.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light = global::CampaignPlanner.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::CampaignPlanner.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V28_Theme_AppCompat = global::CampaignPlanner.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light = global::CampaignPlanner.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::CampaignPlanner.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::CampaignPlanner.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::CampaignPlanner.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::CampaignPlanner.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::CampaignPlanner.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::CampaignPlanner.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::CampaignPlanner.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::CampaignPlanner.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::CampaignPlanner.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.CardView = global::CampaignPlanner.Droid.Resource.Style.CardView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.CardView_Dark = global::CampaignPlanner.Droid.Resource.Style.CardView_Dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.CardView_Light = global::CampaignPlanner.Droid.Resource.Style.CardView_Light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Platform_AppCompat = global::CampaignPlanner.Droid.Resource.Style.Platform_AppCompat;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Platform_AppCompat_Light = global::CampaignPlanner.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Platform_MaterialComponents = global::CampaignPlanner.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Platform_MaterialComponents_Dialog = global::CampaignPlanner.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Platform_MaterialComponents_Light = global::CampaignPlanner.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::CampaignPlanner.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::CampaignPlanner.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::CampaignPlanner.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::CampaignPlanner.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Platform_V21_AppCompat = global::CampaignPlanner.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::CampaignPlanner.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Platform_V25_AppCompat = global::CampaignPlanner.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::CampaignPlanner.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::CampaignPlanner.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::CampaignPlanner.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::CampaignPlanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::CampaignPlanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::CampaignPlanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::CampaignPlanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::CampaignPlanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::CampaignPlanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::CampaignPlanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::CampaignPlanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::CampaignPlanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::CampaignPlanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::CampaignPlanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::CampaignPlanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::CampaignPlanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::CampaignPlanner.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::CampaignPlanner.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::CampaignPlanner.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_Compat_Notification = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_Compat_Notification_Info = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_Compat_Notification_Media = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_Compat_Notification_Time = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_Compat_Notification_Title = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_Design_Counter = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_Design_Error = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_Design_HelperText = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_Design_Hint = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_Design_Tab = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_MaterialComponents_Button = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::CampaignPlanner.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.ThemeOverlay_AppCompat = global::CampaignPlanner.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::CampaignPlanner.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::CampaignPlanner.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::CampaignPlanner.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::CampaignPlanner.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::CampaignPlanner.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::CampaignPlanner.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.ThemeOverlay_MaterialComponents = global::CampaignPlanner.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::CampaignPlanner.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::CampaignPlanner.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::CampaignPlanner.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::CampaignPlanner.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::CampaignPlanner.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::CampaignPlanner.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::CampaignPlanner.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::CampaignPlanner.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::CampaignPlanner.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::CampaignPlanner.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::CampaignPlanner.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_AppCompat = global::CampaignPlanner.Droid.Resource.Style.Theme_AppCompat;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::CampaignPlanner.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_AppCompat_DayNight = global::CampaignPlanner.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::CampaignPlanner.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::CampaignPlanner.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::CampaignPlanner.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::CampaignPlanner.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::CampaignPlanner.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::CampaignPlanner.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_AppCompat_Dialog = global::CampaignPlanner.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::CampaignPlanner.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::CampaignPlanner.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::CampaignPlanner.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_AppCompat_Light = global::CampaignPlanner.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::CampaignPlanner.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::CampaignPlanner.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::CampaignPlanner.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::CampaignPlanner.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::CampaignPlanner.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::CampaignPlanner.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::CampaignPlanner.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_Design = global::CampaignPlanner.Droid.Resource.Style.Theme_Design;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::CampaignPlanner.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_Design_Light = global::CampaignPlanner.Droid.Resource.Style.Theme_Design_Light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::CampaignPlanner.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::CampaignPlanner.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_Design_NoActionBar = global::CampaignPlanner.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_MaterialComponents = global::CampaignPlanner.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::CampaignPlanner.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_MaterialComponents_Bridge = global::CampaignPlanner.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu = global::CampaignPlanner.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_MaterialComponents_Dialog = global::CampaignPlanner.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::CampaignPlanner.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::CampaignPlanner.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::CampaignPlanner.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_MaterialComponents_Light = global::CampaignPlanner.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::CampaignPlanner.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::CampaignPlanner.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::CampaignPlanner.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::CampaignPlanner.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::CampaignPlanner.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::CampaignPlanner.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::CampaignPlanner.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::CampaignPlanner.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::CampaignPlanner.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::CampaignPlanner.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar = global::CampaignPlanner.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::CampaignPlanner.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Button = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_EditText = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_ListView = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_SearchView = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Spinner = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::CampaignPlanner.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_Compat_NotificationActionContainer = global::CampaignPlanner.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_Compat_NotificationActionText = global::CampaignPlanner.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_Design_AppBarLayout = global::CampaignPlanner.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::CampaignPlanner.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::CampaignPlanner.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::CampaignPlanner.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::CampaignPlanner.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_Design_NavigationView = global::CampaignPlanner.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::CampaignPlanner.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_Design_Snackbar = global::CampaignPlanner.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_Design_TabLayout = global::CampaignPlanner.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_Design_TextInputLayout = global::CampaignPlanner.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_Button = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_CardView = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_NavigationView = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_Snackbar = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_TabLayout = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_MaterialComponents_Toolbar = global::CampaignPlanner.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Style.Widget_Support_CoordinatorLayout = global::CampaignPlanner.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBarLayout = global::CampaignPlanner.Droid.Resource.Styleable.ActionBarLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::CampaignPlanner.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_background = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_background;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_displayOptions = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_divider = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_divider;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_elevation = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_height = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_height;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_homeLayout = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_icon = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_icon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_itemPadding = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_logo = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_logo;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_navigationMode = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_popupTheme = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_subtitle = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_title = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_title;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::CampaignPlanner.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionMenuItemView = global::CampaignPlanner.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::CampaignPlanner.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionMenuView = global::CampaignPlanner.Droid.Resource.Styleable.ActionMenuView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionMode = global::CampaignPlanner.Droid.Resource.Styleable.ActionMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionMode_background = global::CampaignPlanner.Droid.Resource.Styleable.ActionMode_background;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::CampaignPlanner.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::CampaignPlanner.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionMode_height = global::CampaignPlanner.Droid.Resource.Styleable.ActionMode_height;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::CampaignPlanner.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::CampaignPlanner.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActivityChooserView = global::CampaignPlanner.Droid.Resource.Styleable.ActivityChooserView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::CampaignPlanner.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::CampaignPlanner.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AlertDialog = global::CampaignPlanner.Droid.Resource.Styleable.AlertDialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AlertDialog_android_layout = global::CampaignPlanner.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AlertDialog_buttonIconDimen = global::CampaignPlanner.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::CampaignPlanner.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::CampaignPlanner.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AlertDialog_listLayout = global::CampaignPlanner.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::CampaignPlanner.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AlertDialog_showTitle = global::CampaignPlanner.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::CampaignPlanner.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AnimatedStateListDrawableCompat = global::CampaignPlanner.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::CampaignPlanner.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::CampaignPlanner.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::CampaignPlanner.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::CampaignPlanner.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::CampaignPlanner.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::CampaignPlanner.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AnimatedStateListDrawableItem = global::CampaignPlanner.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::CampaignPlanner.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::CampaignPlanner.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AnimatedStateListDrawableTransition = global::CampaignPlanner.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::CampaignPlanner.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::CampaignPlanner.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::CampaignPlanner.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::CampaignPlanner.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppBarLayout = global::CampaignPlanner.Droid.Resource.Styleable.AppBarLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppBarLayoutStates = global::CampaignPlanner.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::CampaignPlanner.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::CampaignPlanner.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable = global::CampaignPlanner.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted = global::CampaignPlanner.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppBarLayout_android_background = global::CampaignPlanner.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::CampaignPlanner.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::CampaignPlanner.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppBarLayout_elevation = global::CampaignPlanner.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppBarLayout_expanded = global::CampaignPlanner.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppBarLayout_Layout = global::CampaignPlanner.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::CampaignPlanner.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::CampaignPlanner.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppBarLayout_liftOnScroll = global::CampaignPlanner.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatImageView = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatImageView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatImageView_android_src = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatImageView_tint = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatSeekBar = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTextHelper = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTextView = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTextView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTextView_fontFamily = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTextView_lineHeight = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_colorError = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::CampaignPlanner.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.BottomAppBar = global::CampaignPlanner.Droid.Resource.Styleable.BottomAppBar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.BottomAppBar_backgroundTint = global::CampaignPlanner.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::CampaignPlanner.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin = global::CampaignPlanner.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::CampaignPlanner.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::CampaignPlanner.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.BottomAppBar_hideOnScroll = global::CampaignPlanner.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.BottomNavigationView = global::CampaignPlanner.Droid.Resource.Styleable.BottomNavigationView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.BottomNavigationView_elevation = global::CampaignPlanner.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.BottomNavigationView_itemBackground = global::CampaignPlanner.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::CampaignPlanner.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.BottomNavigationView_itemIconSize = global::CampaignPlanner.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.BottomNavigationView_itemIconTint = global::CampaignPlanner.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::CampaignPlanner.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::CampaignPlanner.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.BottomNavigationView_itemTextColor = global::CampaignPlanner.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::CampaignPlanner.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.BottomNavigationView_menu = global::CampaignPlanner.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::CampaignPlanner.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::CampaignPlanner.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::CampaignPlanner.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::CampaignPlanner.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::CampaignPlanner.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ButtonBarLayout = global::CampaignPlanner.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::CampaignPlanner.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CardView = global::CampaignPlanner.Droid.Resource.Styleable.CardView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CardView_android_minHeight = global::CampaignPlanner.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CardView_android_minWidth = global::CampaignPlanner.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::CampaignPlanner.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CardView_cardCornerRadius = global::CampaignPlanner.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CardView_cardElevation = global::CampaignPlanner.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CardView_cardMaxElevation = global::CampaignPlanner.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::CampaignPlanner.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::CampaignPlanner.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CardView_contentPadding = global::CampaignPlanner.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::CampaignPlanner.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::CampaignPlanner.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CardView_contentPaddingRight = global::CampaignPlanner.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CardView_contentPaddingTop = global::CampaignPlanner.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip = global::CampaignPlanner.Droid.Resource.Styleable.Chip;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ChipGroup = global::CampaignPlanner.Droid.Resource.Styleable.ChipGroup;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ChipGroup_checkedChip = global::CampaignPlanner.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ChipGroup_chipSpacing = global::CampaignPlanner.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::CampaignPlanner.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical = global::CampaignPlanner.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ChipGroup_singleLine = global::CampaignPlanner.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ChipGroup_singleSelection = global::CampaignPlanner.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_android_checkable = global::CampaignPlanner.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_android_ellipsize = global::CampaignPlanner.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_android_maxWidth = global::CampaignPlanner.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_android_text = global::CampaignPlanner.Droid.Resource.Styleable.Chip_android_text;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_android_textAppearance = global::CampaignPlanner.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_checkedIcon = global::CampaignPlanner.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_checkedIconEnabled = global::CampaignPlanner.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_checkedIconVisible = global::CampaignPlanner.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_chipBackgroundColor = global::CampaignPlanner.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_chipCornerRadius = global::CampaignPlanner.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_chipEndPadding = global::CampaignPlanner.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_chipIcon = global::CampaignPlanner.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_chipIconEnabled = global::CampaignPlanner.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_chipIconSize = global::CampaignPlanner.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_chipIconTint = global::CampaignPlanner.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_chipIconVisible = global::CampaignPlanner.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_chipMinHeight = global::CampaignPlanner.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_chipStartPadding = global::CampaignPlanner.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_chipStrokeColor = global::CampaignPlanner.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_chipStrokeWidth = global::CampaignPlanner.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_closeIcon = global::CampaignPlanner.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_closeIconEnabled = global::CampaignPlanner.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_closeIconEndPadding = global::CampaignPlanner.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_closeIconSize = global::CampaignPlanner.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_closeIconStartPadding = global::CampaignPlanner.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_closeIconTint = global::CampaignPlanner.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_closeIconVisible = global::CampaignPlanner.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_hideMotionSpec = global::CampaignPlanner.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_iconEndPadding = global::CampaignPlanner.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_iconStartPadding = global::CampaignPlanner.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_rippleColor = global::CampaignPlanner.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_showMotionSpec = global::CampaignPlanner.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_textEndPadding = global::CampaignPlanner.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Chip_textStartPadding = global::CampaignPlanner.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CollapsingToolbarLayout = global::CampaignPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::CampaignPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::CampaignPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::CampaignPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::CampaignPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::CampaignPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::CampaignPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::CampaignPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::CampaignPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::CampaignPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::CampaignPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::CampaignPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::CampaignPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::CampaignPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::CampaignPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::CampaignPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::CampaignPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::CampaignPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::CampaignPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::CampaignPlanner.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ColorStateListItem = global::CampaignPlanner.Droid.Resource.Styleable.ColorStateListItem;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ColorStateListItem_alpha = global::CampaignPlanner.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::CampaignPlanner.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ColorStateListItem_android_color = global::CampaignPlanner.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CompoundButton = global::CampaignPlanner.Droid.Resource.Styleable.CompoundButton;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CompoundButton_android_button = global::CampaignPlanner.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CompoundButton_buttonTint = global::CampaignPlanner.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::CampaignPlanner.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CoordinatorLayout = global::CampaignPlanner.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::CampaignPlanner.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::CampaignPlanner.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::CampaignPlanner.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::CampaignPlanner.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::CampaignPlanner.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::CampaignPlanner.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::CampaignPlanner.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::CampaignPlanner.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::CampaignPlanner.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::CampaignPlanner.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.DrawerArrowToggle = global::CampaignPlanner.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::CampaignPlanner.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::CampaignPlanner.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::CampaignPlanner.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.DrawerArrowToggle_color = global::CampaignPlanner.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::CampaignPlanner.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::CampaignPlanner.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::CampaignPlanner.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::CampaignPlanner.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FloatingActionButton = global::CampaignPlanner.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::CampaignPlanner.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::CampaignPlanner.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::CampaignPlanner.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::CampaignPlanner.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::CampaignPlanner.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FloatingActionButton_elevation = global::CampaignPlanner.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize = global::CampaignPlanner.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::CampaignPlanner.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::CampaignPlanner.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::CampaignPlanner.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FloatingActionButton_maxImageSize = global::CampaignPlanner.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::CampaignPlanner.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::CampaignPlanner.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec = global::CampaignPlanner.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::CampaignPlanner.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FlowLayout = global::CampaignPlanner.Droid.Resource.Styleable.FlowLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FlowLayout_itemSpacing = global::CampaignPlanner.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FlowLayout_lineSpacing = global::CampaignPlanner.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FontFamily = global::CampaignPlanner.Droid.Resource.Styleable.FontFamily;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FontFamilyFont = global::CampaignPlanner.Droid.Resource.Styleable.FontFamilyFont;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FontFamilyFont_android_font = global::CampaignPlanner.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle = global::CampaignPlanner.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::CampaignPlanner.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight = global::CampaignPlanner.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::CampaignPlanner.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FontFamilyFont_font = global::CampaignPlanner.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FontFamilyFont_fontStyle = global::CampaignPlanner.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::CampaignPlanner.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FontFamilyFont_fontWeight = global::CampaignPlanner.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FontFamilyFont_ttcIndex = global::CampaignPlanner.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FontFamily_fontProviderAuthority = global::CampaignPlanner.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FontFamily_fontProviderCerts = global::CampaignPlanner.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::CampaignPlanner.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::CampaignPlanner.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FontFamily_fontProviderPackage = global::CampaignPlanner.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.FontFamily_fontProviderQuery = global::CampaignPlanner.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ForegroundLinearLayout = global::CampaignPlanner.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::CampaignPlanner.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::CampaignPlanner.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::CampaignPlanner.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.GradientColor = global::CampaignPlanner.Droid.Resource.Styleable.GradientColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.GradientColorItem = global::CampaignPlanner.Droid.Resource.Styleable.GradientColorItem;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.GradientColorItem_android_color = global::CampaignPlanner.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.GradientColorItem_android_offset = global::CampaignPlanner.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.GradientColor_android_centerColor = global::CampaignPlanner.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.GradientColor_android_centerX = global::CampaignPlanner.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.GradientColor_android_centerY = global::CampaignPlanner.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.GradientColor_android_endColor = global::CampaignPlanner.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.GradientColor_android_endX = global::CampaignPlanner.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.GradientColor_android_endY = global::CampaignPlanner.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.GradientColor_android_gradientRadius = global::CampaignPlanner.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.GradientColor_android_startColor = global::CampaignPlanner.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.GradientColor_android_startX = global::CampaignPlanner.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.GradientColor_android_startY = global::CampaignPlanner.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.GradientColor_android_tileMode = global::CampaignPlanner.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.GradientColor_android_type = global::CampaignPlanner.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.LinearLayoutCompat = global::CampaignPlanner.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::CampaignPlanner.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::CampaignPlanner.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::CampaignPlanner.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::CampaignPlanner.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::CampaignPlanner.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::CampaignPlanner.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::CampaignPlanner.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::CampaignPlanner.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::CampaignPlanner.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::CampaignPlanner.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::CampaignPlanner.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::CampaignPlanner.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::CampaignPlanner.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::CampaignPlanner.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ListPopupWindow = global::CampaignPlanner.Droid.Resource.Styleable.ListPopupWindow;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::CampaignPlanner.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::CampaignPlanner.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MaterialButton = global::CampaignPlanner.Droid.Resource.Styleable.MaterialButton;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MaterialButton_android_insetBottom = global::CampaignPlanner.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MaterialButton_android_insetLeft = global::CampaignPlanner.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MaterialButton_android_insetRight = global::CampaignPlanner.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MaterialButton_android_insetTop = global::CampaignPlanner.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MaterialButton_backgroundTint = global::CampaignPlanner.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MaterialButton_backgroundTintMode = global::CampaignPlanner.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MaterialButton_cornerRadius = global::CampaignPlanner.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MaterialButton_icon = global::CampaignPlanner.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MaterialButton_iconGravity = global::CampaignPlanner.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MaterialButton_iconPadding = global::CampaignPlanner.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MaterialButton_iconSize = global::CampaignPlanner.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MaterialButton_iconTint = global::CampaignPlanner.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MaterialButton_iconTintMode = global::CampaignPlanner.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MaterialButton_rippleColor = global::CampaignPlanner.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MaterialButton_strokeColor = global::CampaignPlanner.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MaterialButton_strokeWidth = global::CampaignPlanner.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MaterialCardView = global::CampaignPlanner.Droid.Resource.Styleable.MaterialCardView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MaterialCardView_strokeColor = global::CampaignPlanner.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MaterialCardView_strokeWidth = global::CampaignPlanner.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuGroup = global::CampaignPlanner.Droid.Resource.Styleable.MenuGroup;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::CampaignPlanner.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuGroup_android_enabled = global::CampaignPlanner.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuGroup_android_id = global::CampaignPlanner.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::CampaignPlanner.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::CampaignPlanner.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuGroup_android_visible = global::CampaignPlanner.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuItem = global::CampaignPlanner.Droid.Resource.Styleable.MenuItem;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuItem_actionLayout = global::CampaignPlanner.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::CampaignPlanner.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuItem_actionViewClass = global::CampaignPlanner.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuItem_alphabeticModifiers = global::CampaignPlanner.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::CampaignPlanner.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuItem_android_checkable = global::CampaignPlanner.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuItem_android_checked = global::CampaignPlanner.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuItem_android_enabled = global::CampaignPlanner.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuItem_android_icon = global::CampaignPlanner.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuItem_android_id = global::CampaignPlanner.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::CampaignPlanner.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::CampaignPlanner.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuItem_android_onClick = global::CampaignPlanner.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::CampaignPlanner.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuItem_android_title = global::CampaignPlanner.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::CampaignPlanner.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuItem_android_visible = global::CampaignPlanner.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuItem_contentDescription = global::CampaignPlanner.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuItem_iconTint = global::CampaignPlanner.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuItem_iconTintMode = global::CampaignPlanner.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuItem_numericModifiers = global::CampaignPlanner.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuItem_showAsAction = global::CampaignPlanner.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuItem_tooltipText = global::CampaignPlanner.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuView = global::CampaignPlanner.Droid.Resource.Styleable.MenuView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuView_android_headerBackground = global::CampaignPlanner.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::CampaignPlanner.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuView_android_itemBackground = global::CampaignPlanner.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::CampaignPlanner.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::CampaignPlanner.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::CampaignPlanner.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::CampaignPlanner.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::CampaignPlanner.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.MenuView_subMenuArrow = global::CampaignPlanner.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.NavigationView = global::CampaignPlanner.Droid.Resource.Styleable.NavigationView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.NavigationView_android_background = global::CampaignPlanner.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::CampaignPlanner.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::CampaignPlanner.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.NavigationView_elevation = global::CampaignPlanner.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.NavigationView_headerLayout = global::CampaignPlanner.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.NavigationView_itemBackground = global::CampaignPlanner.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding = global::CampaignPlanner.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.NavigationView_itemIconPadding = global::CampaignPlanner.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.NavigationView_itemIconTint = global::CampaignPlanner.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::CampaignPlanner.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.NavigationView_itemTextColor = global::CampaignPlanner.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.NavigationView_menu = global::CampaignPlanner.Droid.Resource.Styleable.NavigationView_menu;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.PopupWindow = global::CampaignPlanner.Droid.Resource.Styleable.PopupWindow;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.PopupWindowBackgroundState = global::CampaignPlanner.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::CampaignPlanner.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::CampaignPlanner.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::CampaignPlanner.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::CampaignPlanner.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.RecycleListView = global::CampaignPlanner.Droid.Resource.Styleable.RecycleListView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::CampaignPlanner.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::CampaignPlanner.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.RecyclerView = global::CampaignPlanner.Droid.Resource.Styleable.RecyclerView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::CampaignPlanner.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.RecyclerView_android_orientation = global::CampaignPlanner.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled = global::CampaignPlanner.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::CampaignPlanner.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::CampaignPlanner.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::CampaignPlanner.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::CampaignPlanner.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.RecyclerView_layoutManager = global::CampaignPlanner.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::CampaignPlanner.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.RecyclerView_spanCount = global::CampaignPlanner.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::CampaignPlanner.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::CampaignPlanner.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::CampaignPlanner.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::CampaignPlanner.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::CampaignPlanner.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SearchView = global::CampaignPlanner.Droid.Resource.Styleable.SearchView;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SearchView_android_focusable = global::CampaignPlanner.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SearchView_android_imeOptions = global::CampaignPlanner.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SearchView_android_inputType = global::CampaignPlanner.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SearchView_android_maxWidth = global::CampaignPlanner.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SearchView_closeIcon = global::CampaignPlanner.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SearchView_commitIcon = global::CampaignPlanner.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::CampaignPlanner.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SearchView_goIcon = global::CampaignPlanner.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::CampaignPlanner.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SearchView_layout = global::CampaignPlanner.Droid.Resource.Styleable.SearchView_layout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SearchView_queryBackground = global::CampaignPlanner.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SearchView_queryHint = global::CampaignPlanner.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SearchView_searchHintIcon = global::CampaignPlanner.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SearchView_searchIcon = global::CampaignPlanner.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SearchView_submitBackground = global::CampaignPlanner.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::CampaignPlanner.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SearchView_voiceIcon = global::CampaignPlanner.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Snackbar = global::CampaignPlanner.Droid.Resource.Styleable.Snackbar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SnackbarLayout = global::CampaignPlanner.Droid.Resource.Styleable.SnackbarLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::CampaignPlanner.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SnackbarLayout_elevation = global::CampaignPlanner.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::CampaignPlanner.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle = global::CampaignPlanner.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Snackbar_snackbarStyle = global::CampaignPlanner.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Spinner = global::CampaignPlanner.Droid.Resource.Styleable.Spinner;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::CampaignPlanner.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Spinner_android_entries = global::CampaignPlanner.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Spinner_android_popupBackground = global::CampaignPlanner.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Spinner_android_prompt = global::CampaignPlanner.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Spinner_popupTheme = global::CampaignPlanner.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.StateListDrawable = global::CampaignPlanner.Droid.Resource.Styleable.StateListDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.StateListDrawableItem = global::CampaignPlanner.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.StateListDrawableItem_android_drawable = global::CampaignPlanner.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.StateListDrawable_android_constantSize = global::CampaignPlanner.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.StateListDrawable_android_dither = global::CampaignPlanner.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::CampaignPlanner.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::CampaignPlanner.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.StateListDrawable_android_variablePadding = global::CampaignPlanner.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.StateListDrawable_android_visible = global::CampaignPlanner.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SwitchCompat = global::CampaignPlanner.Droid.Resource.Styleable.SwitchCompat;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::CampaignPlanner.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::CampaignPlanner.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::CampaignPlanner.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SwitchCompat_showText = global::CampaignPlanner.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::CampaignPlanner.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::CampaignPlanner.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::CampaignPlanner.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::CampaignPlanner.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::CampaignPlanner.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::CampaignPlanner.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::CampaignPlanner.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SwitchCompat_track = global::CampaignPlanner.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SwitchCompat_trackTint = global::CampaignPlanner.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::CampaignPlanner.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabItem = global::CampaignPlanner.Droid.Resource.Styleable.TabItem;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabItem_android_icon = global::CampaignPlanner.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabItem_android_layout = global::CampaignPlanner.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabItem_android_text = global::CampaignPlanner.Droid.Resource.Styleable.TabItem_android_text;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabLayout = global::CampaignPlanner.Droid.Resource.Styleable.TabLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabLayout_tabBackground = global::CampaignPlanner.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabLayout_tabContentStart = global::CampaignPlanner.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabLayout_tabGravity = global::CampaignPlanner.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabLayout_tabIconTint = global::CampaignPlanner.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabLayout_tabIconTintMode = global::CampaignPlanner.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabLayout_tabIndicator = global::CampaignPlanner.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::CampaignPlanner.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::CampaignPlanner.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::CampaignPlanner.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity = global::CampaignPlanner.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::CampaignPlanner.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabLayout_tabInlineLabel = global::CampaignPlanner.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::CampaignPlanner.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::CampaignPlanner.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabLayout_tabMode = global::CampaignPlanner.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabLayout_tabPadding = global::CampaignPlanner.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::CampaignPlanner.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::CampaignPlanner.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::CampaignPlanner.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::CampaignPlanner.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabLayout_tabRippleColor = global::CampaignPlanner.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::CampaignPlanner.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::CampaignPlanner.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabLayout_tabTextColor = global::CampaignPlanner.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple = global::CampaignPlanner.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextAppearance = global::CampaignPlanner.Droid.Resource.Styleable.TextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextAppearance_android_fontFamily = global::CampaignPlanner.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::CampaignPlanner.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::CampaignPlanner.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::CampaignPlanner.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::CampaignPlanner.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextAppearance_android_textColor = global::CampaignPlanner.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::CampaignPlanner.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextAppearance_android_textColorLink = global::CampaignPlanner.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextAppearance_android_textSize = global::CampaignPlanner.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::CampaignPlanner.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextAppearance_android_typeface = global::CampaignPlanner.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextAppearance_fontFamily = global::CampaignPlanner.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::CampaignPlanner.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout_android_hint = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout_helperText = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::CampaignPlanner.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ThemeEnforcement = global::CampaignPlanner.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::CampaignPlanner.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::CampaignPlanner.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::CampaignPlanner.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_android_gravity = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_android_minHeight = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_buttonGravity = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_collapseIcon = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_logo = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_logo;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_logoDescription = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_navigationIcon = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_popupTheme = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_subtitle = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_title = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_title;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_titleMargin = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_titleMargins = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.Toolbar_titleTextColor = global::CampaignPlanner.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.View = global::CampaignPlanner.Droid.Resource.Styleable.View;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ViewBackgroundHelper = global::CampaignPlanner.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::CampaignPlanner.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::CampaignPlanner.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::CampaignPlanner.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ViewStubCompat = global::CampaignPlanner.Droid.Resource.Styleable.ViewStubCompat;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ViewStubCompat_android_id = global::CampaignPlanner.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::CampaignPlanner.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::CampaignPlanner.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.View_android_focusable = global::CampaignPlanner.Droid.Resource.Styleable.View_android_focusable;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.View_android_theme = global::CampaignPlanner.Droid.Resource.Styleable.View_android_theme;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.View_paddingEnd = global::CampaignPlanner.Droid.Resource.Styleable.View_paddingEnd;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.View_paddingStart = global::CampaignPlanner.Droid.Resource.Styleable.View_paddingStart;
+			global::Xamarin.RisePlugin.AutoCompleteTextView.Droid.Resource.Styleable.View_theme = global::CampaignPlanner.Droid.Resource.Styleable.View_theme;
 		}
 		
 		public partial class Animation
@@ -12980,265 +15493,268 @@ namespace CampaignPlanner.Droid
 			public const int abc_tooltip = 2131427355;
 			
 			// aapt resource value: 0x7F0B001C
-			public const int BottomTabLayout = 2131427356;
+			public const int adapterList = 2131427356;
 			
 			// aapt resource value: 0x7F0B001D
-			public const int browser_actions_context_menu_page = 2131427357;
+			public const int BottomTabLayout = 2131427357;
 			
 			// aapt resource value: 0x7F0B001E
-			public const int browser_actions_context_menu_row = 2131427358;
+			public const int browser_actions_context_menu_page = 2131427358;
 			
 			// aapt resource value: 0x7F0B001F
-			public const int custom_dialog = 2131427359;
+			public const int browser_actions_context_menu_row = 2131427359;
 			
 			// aapt resource value: 0x7F0B0020
-			public const int design_bottom_navigation_item = 2131427360;
+			public const int custom_dialog = 2131427360;
 			
 			// aapt resource value: 0x7F0B0021
-			public const int design_bottom_sheet_dialog = 2131427361;
+			public const int design_bottom_navigation_item = 2131427361;
 			
 			// aapt resource value: 0x7F0B0022
-			public const int design_layout_snackbar = 2131427362;
+			public const int design_bottom_sheet_dialog = 2131427362;
 			
 			// aapt resource value: 0x7F0B0023
-			public const int design_layout_snackbar_include = 2131427363;
+			public const int design_layout_snackbar = 2131427363;
 			
 			// aapt resource value: 0x7F0B0024
-			public const int design_layout_tab_icon = 2131427364;
+			public const int design_layout_snackbar_include = 2131427364;
 			
 			// aapt resource value: 0x7F0B0025
-			public const int design_layout_tab_text = 2131427365;
+			public const int design_layout_tab_icon = 2131427365;
 			
 			// aapt resource value: 0x7F0B0026
-			public const int design_menu_item_action_area = 2131427366;
+			public const int design_layout_tab_text = 2131427366;
 			
 			// aapt resource value: 0x7F0B0027
-			public const int design_navigation_item = 2131427367;
+			public const int design_menu_item_action_area = 2131427367;
 			
 			// aapt resource value: 0x7F0B0028
-			public const int design_navigation_item_header = 2131427368;
+			public const int design_navigation_item = 2131427368;
 			
 			// aapt resource value: 0x7F0B0029
-			public const int design_navigation_item_separator = 2131427369;
+			public const int design_navigation_item_header = 2131427369;
 			
 			// aapt resource value: 0x7F0B002A
-			public const int design_navigation_item_subheader = 2131427370;
+			public const int design_navigation_item_separator = 2131427370;
 			
 			// aapt resource value: 0x7F0B002B
-			public const int design_navigation_menu = 2131427371;
+			public const int design_navigation_item_subheader = 2131427371;
 			
 			// aapt resource value: 0x7F0B002C
-			public const int design_navigation_menu_item = 2131427372;
+			public const int design_navigation_menu = 2131427372;
 			
 			// aapt resource value: 0x7F0B002D
-			public const int design_text_input_end_icon = 2131427373;
+			public const int design_navigation_menu_item = 2131427373;
 			
 			// aapt resource value: 0x7F0B002E
-			public const int design_text_input_start_icon = 2131427374;
+			public const int design_text_input_end_icon = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public const int FallbackTabbarDoNotUse = 2131427375;
+			public const int design_text_input_start_icon = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int FallbackToolbarDoNotUse = 2131427376;
+			public const int FallbackTabbarDoNotUse = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int FlyoutContent = 2131427377;
+			public const int FallbackToolbarDoNotUse = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int mtrl_alert_dialog = 2131427378;
+			public const int FlyoutContent = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int mtrl_alert_dialog_actions = 2131427379;
+			public const int mtrl_alert_dialog = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int mtrl_alert_dialog_title = 2131427380;
+			public const int mtrl_alert_dialog_actions = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int mtrl_alert_select_dialog_item = 2131427381;
+			public const int mtrl_alert_dialog_title = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int mtrl_alert_select_dialog_multichoice = 2131427382;
+			public const int mtrl_alert_select_dialog_item = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int mtrl_alert_select_dialog_singlechoice = 2131427383;
+			public const int mtrl_alert_select_dialog_multichoice = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int mtrl_calendar_day = 2131427384;
-			
-			// aapt resource value: 0x7F0B003A
-			public const int mtrl_calendar_days_of_week = 2131427386;
+			public const int mtrl_alert_select_dialog_singlechoice = 2131427384;
 			
 			// aapt resource value: 0x7F0B0039
-			public const int mtrl_calendar_day_of_week = 2131427385;
+			public const int mtrl_calendar_day = 2131427385;
 			
 			// aapt resource value: 0x7F0B003B
-			public const int mtrl_calendar_horizontal = 2131427387;
+			public const int mtrl_calendar_days_of_week = 2131427387;
+			
+			// aapt resource value: 0x7F0B003A
+			public const int mtrl_calendar_day_of_week = 2131427386;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int mtrl_calendar_month = 2131427388;
-			
-			// aapt resource value: 0x7F0B003F
-			public const int mtrl_calendar_months = 2131427391;
+			public const int mtrl_calendar_horizontal = 2131427388;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int mtrl_calendar_month_labeled = 2131427389;
-			
-			// aapt resource value: 0x7F0B003E
-			public const int mtrl_calendar_month_navigation = 2131427390;
+			public const int mtrl_calendar_month = 2131427389;
 			
 			// aapt resource value: 0x7F0B0040
-			public const int mtrl_calendar_vertical = 2131427392;
+			public const int mtrl_calendar_months = 2131427392;
+			
+			// aapt resource value: 0x7F0B003E
+			public const int mtrl_calendar_month_labeled = 2131427390;
+			
+			// aapt resource value: 0x7F0B003F
+			public const int mtrl_calendar_month_navigation = 2131427391;
 			
 			// aapt resource value: 0x7F0B0041
-			public const int mtrl_calendar_year = 2131427393;
+			public const int mtrl_calendar_vertical = 2131427393;
 			
 			// aapt resource value: 0x7F0B0042
-			public const int mtrl_layout_snackbar = 2131427394;
+			public const int mtrl_calendar_year = 2131427394;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int mtrl_layout_snackbar_include = 2131427395;
+			public const int mtrl_layout_snackbar = 2131427395;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int mtrl_picker_actions = 2131427396;
+			public const int mtrl_layout_snackbar_include = 2131427396;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int mtrl_picker_dialog = 2131427397;
+			public const int mtrl_picker_actions = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int mtrl_picker_fullscreen = 2131427398;
+			public const int mtrl_picker_dialog = 2131427398;
 			
 			// aapt resource value: 0x7F0B0047
-			public const int mtrl_picker_header_dialog = 2131427399;
+			public const int mtrl_picker_fullscreen = 2131427399;
 			
 			// aapt resource value: 0x7F0B0048
-			public const int mtrl_picker_header_fullscreen = 2131427400;
+			public const int mtrl_picker_header_dialog = 2131427400;
 			
 			// aapt resource value: 0x7F0B0049
-			public const int mtrl_picker_header_selection_text = 2131427401;
+			public const int mtrl_picker_header_fullscreen = 2131427401;
 			
 			// aapt resource value: 0x7F0B004A
-			public const int mtrl_picker_header_title_text = 2131427402;
+			public const int mtrl_picker_header_selection_text = 2131427402;
 			
 			// aapt resource value: 0x7F0B004B
-			public const int mtrl_picker_header_toggle = 2131427403;
+			public const int mtrl_picker_header_title_text = 2131427403;
 			
 			// aapt resource value: 0x7F0B004C
-			public const int mtrl_picker_text_input_date = 2131427404;
+			public const int mtrl_picker_header_toggle = 2131427404;
 			
 			// aapt resource value: 0x7F0B004D
-			public const int mtrl_picker_text_input_date_range = 2131427405;
+			public const int mtrl_picker_text_input_date = 2131427405;
 			
 			// aapt resource value: 0x7F0B004E
-			public const int notification_action = 2131427406;
+			public const int mtrl_picker_text_input_date_range = 2131427406;
 			
 			// aapt resource value: 0x7F0B004F
-			public const int notification_action_tombstone = 2131427407;
+			public const int notification_action = 2131427407;
 			
 			// aapt resource value: 0x7F0B0050
-			public const int notification_media_action = 2131427408;
+			public const int notification_action_tombstone = 2131427408;
 			
 			// aapt resource value: 0x7F0B0051
-			public const int notification_media_cancel_action = 2131427409;
+			public const int notification_media_action = 2131427409;
 			
 			// aapt resource value: 0x7F0B0052
-			public const int notification_template_big_media = 2131427410;
+			public const int notification_media_cancel_action = 2131427410;
 			
 			// aapt resource value: 0x7F0B0053
-			public const int notification_template_big_media_custom = 2131427411;
+			public const int notification_template_big_media = 2131427411;
 			
 			// aapt resource value: 0x7F0B0054
-			public const int notification_template_big_media_narrow = 2131427412;
+			public const int notification_template_big_media_custom = 2131427412;
 			
 			// aapt resource value: 0x7F0B0055
-			public const int notification_template_big_media_narrow_custom = 2131427413;
+			public const int notification_template_big_media_narrow = 2131427413;
 			
 			// aapt resource value: 0x7F0B0056
-			public const int notification_template_custom_big = 2131427414;
+			public const int notification_template_big_media_narrow_custom = 2131427414;
 			
 			// aapt resource value: 0x7F0B0057
-			public const int notification_template_icon_group = 2131427415;
+			public const int notification_template_custom_big = 2131427415;
 			
 			// aapt resource value: 0x7F0B0058
-			public const int notification_template_lines_media = 2131427416;
+			public const int notification_template_icon_group = 2131427416;
 			
 			// aapt resource value: 0x7F0B0059
-			public const int notification_template_media = 2131427417;
+			public const int notification_template_lines_media = 2131427417;
 			
 			// aapt resource value: 0x7F0B005A
-			public const int notification_template_media_custom = 2131427418;
+			public const int notification_template_media = 2131427418;
 			
 			// aapt resource value: 0x7F0B005B
-			public const int notification_template_part_chronometer = 2131427419;
+			public const int notification_template_media_custom = 2131427419;
 			
 			// aapt resource value: 0x7F0B005C
-			public const int notification_template_part_time = 2131427420;
+			public const int notification_template_part_chronometer = 2131427420;
 			
 			// aapt resource value: 0x7F0B005D
-			public const int RootLayout = 2131427421;
+			public const int notification_template_part_time = 2131427421;
 			
 			// aapt resource value: 0x7F0B005E
-			public const int select_dialog_item_material = 2131427422;
+			public const int RootLayout = 2131427422;
 			
 			// aapt resource value: 0x7F0B005F
-			public const int select_dialog_multichoice_material = 2131427423;
+			public const int select_dialog_item_material = 2131427423;
 			
 			// aapt resource value: 0x7F0B0060
-			public const int select_dialog_singlechoice_material = 2131427424;
+			public const int select_dialog_multichoice_material = 2131427424;
 			
 			// aapt resource value: 0x7F0B0061
-			public const int ShellContent = 2131427425;
+			public const int select_dialog_singlechoice_material = 2131427425;
 			
 			// aapt resource value: 0x7F0B0062
-			public const int support_simple_spinner_dropdown_item = 2131427426;
+			public const int ShellContent = 2131427426;
 			
 			// aapt resource value: 0x7F0B0063
-			public const int Tabbar = 2131427427;
+			public const int support_simple_spinner_dropdown_item = 2131427427;
 			
 			// aapt resource value: 0x7F0B0064
-			public const int test_action_chip = 2131427428;
+			public const int Tabbar = 2131427428;
 			
 			// aapt resource value: 0x7F0B0065
-			public const int test_chip_zero_corner_radius = 2131427429;
+			public const int test_action_chip = 2131427429;
 			
 			// aapt resource value: 0x7F0B0066
-			public const int test_design_checkbox = 2131427430;
+			public const int test_chip_zero_corner_radius = 2131427430;
 			
 			// aapt resource value: 0x7F0B0067
-			public const int test_design_radiobutton = 2131427431;
+			public const int test_design_checkbox = 2131427431;
 			
 			// aapt resource value: 0x7F0B0068
-			public const int test_reflow_chipgroup = 2131427432;
+			public const int test_design_radiobutton = 2131427432;
 			
 			// aapt resource value: 0x7F0B0069
-			public const int test_toolbar = 2131427433;
+			public const int test_reflow_chipgroup = 2131427433;
 			
 			// aapt resource value: 0x7F0B006A
-			public const int test_toolbar_custom_background = 2131427434;
+			public const int test_toolbar = 2131427434;
 			
 			// aapt resource value: 0x7F0B006B
-			public const int test_toolbar_elevation = 2131427435;
+			public const int test_toolbar_custom_background = 2131427435;
 			
 			// aapt resource value: 0x7F0B006C
-			public const int test_toolbar_surface = 2131427436;
-			
-			// aapt resource value: 0x7F0B0071
-			public const int text_view_without_line_height = 2131427441;
+			public const int test_toolbar_elevation = 2131427436;
 			
 			// aapt resource value: 0x7F0B006D
-			public const int text_view_with_line_height_from_appearance = 2131427437;
-			
-			// aapt resource value: 0x7F0B006E
-			public const int text_view_with_line_height_from_layout = 2131427438;
-			
-			// aapt resource value: 0x7F0B006F
-			public const int text_view_with_line_height_from_style = 2131427439;
-			
-			// aapt resource value: 0x7F0B0070
-			public const int text_view_with_theme_line_height = 2131427440;
+			public const int test_toolbar_surface = 2131427437;
 			
 			// aapt resource value: 0x7F0B0072
-			public const int Toolbar = 2131427442;
+			public const int text_view_without_line_height = 2131427442;
+			
+			// aapt resource value: 0x7F0B006E
+			public const int text_view_with_line_height_from_appearance = 2131427438;
+			
+			// aapt resource value: 0x7F0B006F
+			public const int text_view_with_line_height_from_layout = 2131427439;
+			
+			// aapt resource value: 0x7F0B0070
+			public const int text_view_with_line_height_from_style = 2131427440;
+			
+			// aapt resource value: 0x7F0B0071
+			public const int text_view_with_theme_line_height = 2131427441;
+			
+			// aapt resource value: 0x7F0B0073
+			public const int Toolbar = 2131427443;
 			
 			static Layout()
 			{
@@ -13372,194 +15888,200 @@ namespace CampaignPlanner.Droid
 			// aapt resource value: 0x7F0E001A
 			public const int abc_toolbar_collapse_description = 2131623962;
 			
-			// aapt resource value: 0x7F0E001B
-			public const int appbar_scrolling_view_behavior = 2131623963;
-			
 			// aapt resource value: 0x7F0E001C
-			public const int bottom_sheet_behavior = 2131623964;
+			public const int appbar_scrolling_view_behavior = 2131623964;
+			
+			// aapt resource value: 0x7F0E001B
+			public const int app_name = 2131623963;
 			
 			// aapt resource value: 0x7F0E001D
-			public const int character_counter_content_description = 2131623965;
+			public const int bottom_sheet_behavior = 2131623965;
 			
 			// aapt resource value: 0x7F0E001E
-			public const int character_counter_overflowed_content_description = 2131623966;
+			public const int character_counter_content_description = 2131623966;
 			
 			// aapt resource value: 0x7F0E001F
-			public const int character_counter_pattern = 2131623967;
+			public const int character_counter_overflowed_content_description = 2131623967;
 			
 			// aapt resource value: 0x7F0E0020
-			public const int chip_text = 2131623968;
+			public const int character_counter_pattern = 2131623968;
 			
 			// aapt resource value: 0x7F0E0021
-			public const int clear_text_end_icon_content_description = 2131623969;
+			public const int chip_text = 2131623969;
 			
 			// aapt resource value: 0x7F0E0022
-			public const int copy_toast_msg = 2131623970;
+			public const int clear_text_end_icon_content_description = 2131623970;
 			
 			// aapt resource value: 0x7F0E0023
-			public const int error_icon_content_description = 2131623971;
+			public const int copy_toast_msg = 2131623971;
 			
 			// aapt resource value: 0x7F0E0024
-			public const int exposed_dropdown_menu_content_description = 2131623972;
+			public const int error_icon_content_description = 2131623972;
 			
 			// aapt resource value: 0x7F0E0025
-			public const int fab_transformation_scrim_behavior = 2131623973;
+			public const int exposed_dropdown_menu_content_description = 2131623973;
 			
 			// aapt resource value: 0x7F0E0026
-			public const int fab_transformation_sheet_behavior = 2131623974;
+			public const int fab_transformation_scrim_behavior = 2131623974;
 			
 			// aapt resource value: 0x7F0E0027
-			public const int fallback_menu_item_copy_link = 2131623975;
+			public const int fab_transformation_sheet_behavior = 2131623975;
 			
 			// aapt resource value: 0x7F0E0028
-			public const int fallback_menu_item_open_in_browser = 2131623976;
+			public const int fallback_menu_item_copy_link = 2131623976;
 			
 			// aapt resource value: 0x7F0E0029
-			public const int fallback_menu_item_share_link = 2131623977;
+			public const int fallback_menu_item_open_in_browser = 2131623977;
 			
 			// aapt resource value: 0x7F0E002A
-			public const int hide_bottom_view_on_scroll_behavior = 2131623978;
+			public const int fallback_menu_item_share_link = 2131623978;
 			
 			// aapt resource value: 0x7F0E002B
-			public const int icon_content_description = 2131623979;
+			public const int hello = 2131623979;
 			
 			// aapt resource value: 0x7F0E002C
-			public const int item_view_role_description = 2131623980;
+			public const int hide_bottom_view_on_scroll_behavior = 2131623980;
 			
 			// aapt resource value: 0x7F0E002D
-			public const int material_slider_range_end = 2131623981;
+			public const int icon_content_description = 2131623981;
 			
 			// aapt resource value: 0x7F0E002E
-			public const int material_slider_range_start = 2131623982;
+			public const int item_view_role_description = 2131623982;
 			
 			// aapt resource value: 0x7F0E002F
-			public const int mtrl_badge_numberless_content_description = 2131623983;
+			public const int material_slider_range_end = 2131623983;
 			
 			// aapt resource value: 0x7F0E0030
-			public const int mtrl_chip_close_icon_content_description = 2131623984;
+			public const int material_slider_range_start = 2131623984;
 			
 			// aapt resource value: 0x7F0E0031
-			public const int mtrl_exceed_max_badge_number_content_description = 2131623985;
+			public const int mtrl_badge_numberless_content_description = 2131623985;
 			
 			// aapt resource value: 0x7F0E0032
-			public const int mtrl_exceed_max_badge_number_suffix = 2131623986;
+			public const int mtrl_chip_close_icon_content_description = 2131623986;
 			
 			// aapt resource value: 0x7F0E0033
-			public const int mtrl_picker_a11y_next_month = 2131623987;
+			public const int mtrl_exceed_max_badge_number_content_description = 2131623987;
 			
 			// aapt resource value: 0x7F0E0034
-			public const int mtrl_picker_a11y_prev_month = 2131623988;
+			public const int mtrl_exceed_max_badge_number_suffix = 2131623988;
 			
 			// aapt resource value: 0x7F0E0035
-			public const int mtrl_picker_announce_current_selection = 2131623989;
+			public const int mtrl_picker_a11y_next_month = 2131623989;
 			
 			// aapt resource value: 0x7F0E0036
-			public const int mtrl_picker_cancel = 2131623990;
+			public const int mtrl_picker_a11y_prev_month = 2131623990;
 			
 			// aapt resource value: 0x7F0E0037
-			public const int mtrl_picker_confirm = 2131623991;
+			public const int mtrl_picker_announce_current_selection = 2131623991;
 			
 			// aapt resource value: 0x7F0E0038
-			public const int mtrl_picker_date_header_selected = 2131623992;
+			public const int mtrl_picker_cancel = 2131623992;
 			
 			// aapt resource value: 0x7F0E0039
-			public const int mtrl_picker_date_header_title = 2131623993;
+			public const int mtrl_picker_confirm = 2131623993;
 			
 			// aapt resource value: 0x7F0E003A
-			public const int mtrl_picker_date_header_unselected = 2131623994;
+			public const int mtrl_picker_date_header_selected = 2131623994;
 			
 			// aapt resource value: 0x7F0E003B
-			public const int mtrl_picker_day_of_week_column_header = 2131623995;
+			public const int mtrl_picker_date_header_title = 2131623995;
 			
 			// aapt resource value: 0x7F0E003C
-			public const int mtrl_picker_invalid_format = 2131623996;
+			public const int mtrl_picker_date_header_unselected = 2131623996;
 			
 			// aapt resource value: 0x7F0E003D
-			public const int mtrl_picker_invalid_format_example = 2131623997;
+			public const int mtrl_picker_day_of_week_column_header = 2131623997;
 			
 			// aapt resource value: 0x7F0E003E
-			public const int mtrl_picker_invalid_format_use = 2131623998;
+			public const int mtrl_picker_invalid_format = 2131623998;
 			
 			// aapt resource value: 0x7F0E003F
-			public const int mtrl_picker_invalid_range = 2131623999;
+			public const int mtrl_picker_invalid_format_example = 2131623999;
 			
 			// aapt resource value: 0x7F0E0040
-			public const int mtrl_picker_navigate_to_year_description = 2131624000;
+			public const int mtrl_picker_invalid_format_use = 2131624000;
 			
 			// aapt resource value: 0x7F0E0041
-			public const int mtrl_picker_out_of_range = 2131624001;
+			public const int mtrl_picker_invalid_range = 2131624001;
 			
 			// aapt resource value: 0x7F0E0042
-			public const int mtrl_picker_range_header_only_end_selected = 2131624002;
+			public const int mtrl_picker_navigate_to_year_description = 2131624002;
 			
 			// aapt resource value: 0x7F0E0043
-			public const int mtrl_picker_range_header_only_start_selected = 2131624003;
+			public const int mtrl_picker_out_of_range = 2131624003;
 			
 			// aapt resource value: 0x7F0E0044
-			public const int mtrl_picker_range_header_selected = 2131624004;
+			public const int mtrl_picker_range_header_only_end_selected = 2131624004;
 			
 			// aapt resource value: 0x7F0E0045
-			public const int mtrl_picker_range_header_title = 2131624005;
+			public const int mtrl_picker_range_header_only_start_selected = 2131624005;
 			
 			// aapt resource value: 0x7F0E0046
-			public const int mtrl_picker_range_header_unselected = 2131624006;
+			public const int mtrl_picker_range_header_selected = 2131624006;
 			
 			// aapt resource value: 0x7F0E0047
-			public const int mtrl_picker_save = 2131624007;
+			public const int mtrl_picker_range_header_title = 2131624007;
 			
 			// aapt resource value: 0x7F0E0048
-			public const int mtrl_picker_text_input_date_hint = 2131624008;
+			public const int mtrl_picker_range_header_unselected = 2131624008;
 			
 			// aapt resource value: 0x7F0E0049
-			public const int mtrl_picker_text_input_date_range_end_hint = 2131624009;
+			public const int mtrl_picker_save = 2131624009;
 			
 			// aapt resource value: 0x7F0E004A
-			public const int mtrl_picker_text_input_date_range_start_hint = 2131624010;
+			public const int mtrl_picker_text_input_date_hint = 2131624010;
 			
 			// aapt resource value: 0x7F0E004B
-			public const int mtrl_picker_text_input_day_abbr = 2131624011;
+			public const int mtrl_picker_text_input_date_range_end_hint = 2131624011;
 			
 			// aapt resource value: 0x7F0E004C
-			public const int mtrl_picker_text_input_month_abbr = 2131624012;
+			public const int mtrl_picker_text_input_date_range_start_hint = 2131624012;
 			
 			// aapt resource value: 0x7F0E004D
-			public const int mtrl_picker_text_input_year_abbr = 2131624013;
+			public const int mtrl_picker_text_input_day_abbr = 2131624013;
 			
 			// aapt resource value: 0x7F0E004E
-			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624014;
+			public const int mtrl_picker_text_input_month_abbr = 2131624014;
 			
 			// aapt resource value: 0x7F0E004F
-			public const int mtrl_picker_toggle_to_day_selection = 2131624015;
+			public const int mtrl_picker_text_input_year_abbr = 2131624015;
 			
 			// aapt resource value: 0x7F0E0050
-			public const int mtrl_picker_toggle_to_text_input_mode = 2131624016;
+			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624016;
 			
 			// aapt resource value: 0x7F0E0051
-			public const int mtrl_picker_toggle_to_year_selection = 2131624017;
+			public const int mtrl_picker_toggle_to_day_selection = 2131624017;
 			
 			// aapt resource value: 0x7F0E0052
-			public const int overflow_tab_title = 2131624018;
+			public const int mtrl_picker_toggle_to_text_input_mode = 2131624018;
 			
 			// aapt resource value: 0x7F0E0053
-			public const int password_toggle_content_description = 2131624019;
+			public const int mtrl_picker_toggle_to_year_selection = 2131624019;
 			
 			// aapt resource value: 0x7F0E0054
-			public const int path_password_eye = 2131624020;
+			public const int overflow_tab_title = 2131624020;
 			
 			// aapt resource value: 0x7F0E0055
-			public const int path_password_eye_mask_strike_through = 2131624021;
+			public const int password_toggle_content_description = 2131624021;
 			
 			// aapt resource value: 0x7F0E0056
-			public const int path_password_eye_mask_visible = 2131624022;
+			public const int path_password_eye = 2131624022;
 			
 			// aapt resource value: 0x7F0E0057
-			public const int path_password_strike_through = 2131624023;
+			public const int path_password_eye_mask_strike_through = 2131624023;
 			
 			// aapt resource value: 0x7F0E0058
-			public const int search_menu_title = 2131624024;
+			public const int path_password_eye_mask_visible = 2131624024;
 			
 			// aapt resource value: 0x7F0E0059
-			public const int status_bar_notification_info_overflow = 2131624025;
+			public const int path_password_strike_through = 2131624025;
+			
+			// aapt resource value: 0x7F0E005A
+			public const int search_menu_title = 2131624026;
+			
+			// aapt resource value: 0x7F0E005B
+			public const int status_bar_notification_info_overflow = 2131624027;
 			
 			static String()
 			{

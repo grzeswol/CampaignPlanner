@@ -18,23 +18,24 @@ namespace CampaignPlanner.Tests.Mocks
             new Town { Name = "Los Angeles"}
         };
 
-        public async Task<bool> AddItemAsync(Town item)
+        public async Task<int> AddItemAsync(Town item)
         {
             mockTowns.Add(item);
-            return await Task.FromResult(true);
+            return await Task.FromResult(0);
         }
 
-        public Task<bool> DeleteAllItemsAsync()
+        public Town GetItem(int id)
         {
             throw new NotImplementedException();
         }
 
-        public async Task<bool> DeleteItemAsync(int id)
+        public Task<Town> GetItemAsync(int id)
         {
-            throw new NotImplementedException();
+            var result = mockTowns.Find(t => t.Id == id);
+            return Task.FromResult(result);
         }
 
-        public async Task<Town> GetItemAsync(int id)
+        public IEnumerable<Town> GetItems()
         {
             throw new NotImplementedException();
         }
@@ -44,7 +45,17 @@ namespace CampaignPlanner.Tests.Mocks
             return await Task.FromResult(mockTowns);
         }
 
-        public async Task<bool> UpdateItemAsync(Town item)
+        Task<int> IDataService<Town>.DeleteAllItemsAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<int> IDataService<Town>.DeleteItemAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<int> IDataService<Town>.UpdateItemAsync(Town item)
         {
             throw new NotImplementedException();
         }

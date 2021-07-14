@@ -7,6 +7,7 @@ using System.Diagnostics;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using System.Linq;
+using CampaignPlanner.Utility;
 
 namespace CampaignPlanner.ViewModels
 {
@@ -17,11 +18,13 @@ namespace CampaignPlanner.ViewModels
 
         private IDataService<Campaign> _campaignDataService;
         private IDataService<Town> _townDataService;
-        private ObservableCollection<Town> _towns = new ObservableCollection<Town>();
+        private IDataService<Keyword> _keywordDataService;
+        private ObservableCollection<Town> _towns;
+        private ObservableCollection<Keyword> _selectedKeywords;
         private Town _selectedTown;
 
         private string _name;
-        private List<Keyword> _keywords = new List<Keyword>();
+        private ObservableCollection<Keyword> _keywords;
         private double _bidAmount;
         private double _campaignFund;
         private bool _status;
@@ -29,6 +32,15 @@ namespace CampaignPlanner.ViewModels
         private int _radius;
         private double _emeraldAccountFunds;
 
+        public ObservableCollection<Keyword> SelectedKeywords
+        {
+            get => _selectedKeywords;
+            set
+            {
+                _selectedKeywords = value;
+                SetProperty(ref _selectedKeywords, value);
+            }
+        }
         public ObservableCollection<Town> Towns
         {
             get => _towns;
@@ -55,7 +67,7 @@ namespace CampaignPlanner.ViewModels
             set => SetProperty(ref _bidAmount, value);
         }
 
-        public List<Keyword> Keywords
+        public ObservableCollection<Keyword> Keywords
         {
             get => _keywords;
             set => SetProperty(ref _keywords, value);
@@ -105,7 +117,6 @@ namespace CampaignPlanner.ViewModels
             set
             {
                 _campaignId = value;
-                PopulateTowns();
                 LoadCampaignId(value);
             }
         }
@@ -114,23 +125,55 @@ namespace CampaignPlanner.ViewModels
         public Command UpdateCommand { get; }
         public Command CampaignFundCommand { get; }
 
-        public CampaignDetailViewModel(IDataService<Campaign> campaignDataService, IDataService<Town> townDataService)
+        public CampaignDetailViewModel(IDataService<Campaign> campaignDataService, IDataService<Town> townDataService, IDataService<Keyword> keywordDataService)
         {
             _campaignDataService = campaignDataService;
             _townDataService = townDataService;
+            _keywordDataService = keywordDataService;
             DeleteCommand = new Command(OnDelete);
             UpdateCommand = new Command(OnUpdate);
             CampaignFundCommand = new Command(OnCampaignFund);
+            _towns = new ObservableCollection<Town>();
+            _keywords = new ObservableCollection<Keyword>();
+            _selectedKeywords = new ObservableCollection<Keyword>();
+            SelectedKeywords = new ObservableCollection<Keyword>();
+            SelectedTown = new Town();
+            PopulateTowns();
+            PopulateKeywords();
         }
 
 
-        private async void PopulateTowns()
+        private void PopulateTowns()
         {
-            Towns.Clear();
-            var dbTowns = await _townDataService.GetItemsAsync();
-            foreach (var town in dbTowns)
+            try
             {
-                Towns.Add(town);
+                Towns = new ObservableCollection<Town>();
+                var dbTowns = _townDataService.GetItems();
+                foreach (var town in dbTowns)
+                {
+                    Towns.Add(town);
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine("Failed to Populate Towns", ex.Message);
+            }
+        }
+
+        private void PopulateKeywords()
+        {
+            try
+            {
+                Keywords = new ObservableCollection<Keyword>();
+                var dbKeywords = _keywordDataService.GetItems();
+                foreach (var keyword in dbKeywords)
+                {
+                    Keywords.Add(keyword);
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine("Failed to Populate Keywords", ex.Message);
             }
         }
 
@@ -139,20 +182,32 @@ namespace CampaignPlanner.ViewModels
             EmeraldAccountFunds = App.EmeraldAccountFunds - CampaignFund;
         }
 
-        public async void LoadCampaignId(int campaignId)
+        public void LoadCampaignId(int campaignId)
         {
             try
-            {
-                var campaign = await _campaignDataService.GetItemAsync(campaignId);
+            {                
+                var campaign = _campaignDataService.GetItem(campaignId);
                 Id = campaign.Id;
                 Name = campaign.Name;
-                Keywords = campaign.Keywords;
                 BidAmount = campaign.BidAmount;
                 CampaignFund = campaign.CampaignFund;
                 Status = campaign.Status;
                 Town = campaign.Town;
                 Radius = campaign.Radius;
                 SelectedTown = Towns.FirstOrDefault(t => t.Id == campaign.Town.Id);
+                if (SelectedKeywords == null)
+                {
+                    SelectedKeywords = new ObservableCollection<Keyword>();
+                }
+                else
+                {
+                    SelectedKeywords.SafeClear();
+                }
+                foreach (var keyword in campaign.Keywords)
+                {
+                    var listKeyword = Keywords.FirstOrDefault(k => k.Id == keyword.Id);
+                    SelectedKeywords.Add(keyword);
+                }
                 EmeraldAccountFunds = App.EmeraldAccountFunds - CampaignFund;
             }
             catch (Exception ex)
@@ -163,8 +218,20 @@ namespace CampaignPlanner.ViewModels
 
         private async void OnDelete()
         {
-            await _campaignDataService.DeleteItemAsync(CampaignId);
-            await Shell.Current.GoToAsync("..");
+            try
+            {
+                await _campaignDataService.DeleteItemAsync(CampaignId);
+
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine("Failed to Delete Campaign", ex.Message);
+
+            }
+            finally
+            {
+                await Shell.Current.GoToAsync("..");
+            }
         }
 
         private async void OnUpdate()
@@ -172,7 +239,6 @@ namespace CampaignPlanner.ViewModels
             try
             {
                 var campaign = new Campaign();
-                Keywords.Add(new Keyword() { Name = "test1" });
                 campaign.Id = CampaignId;
                 campaign.Name = Name;
                 campaign.BidAmount = BidAmount;
@@ -180,7 +246,7 @@ namespace CampaignPlanner.ViewModels
                 campaign.Radius = Radius;
                 campaign.Status = Status;
                 campaign.Town = SelectedTown;
-                campaign.Keywords = Keywords;
+                campaign.Keywords = SelectedKeywords.ToList();
                 await _campaignDataService.UpdateItemAsync(campaign);
             }
             catch (Exception ex)

@@ -13,7 +13,7 @@ namespace CampaignPlanner
         public static CampaignDataService CampaignDataService { get; } = new CampaignDataService();
         public static KeywordDataService KeywordDataService { get; } = new KeywordDataService();
         public static double EmeraldAccountFunds { get; set; } = 20000.00;
-        public static double MIN_BID_AMOUNT = 4;
+        public static double MIN_BID_AMOUNT = 20;
 
         public App()
         {
@@ -47,7 +47,10 @@ namespace CampaignPlanner
             await TownDataService.AddItemAsync(new Models.Town() { Name = "San Francisco" });
             await KeywordDataService.AddItemAsync(new Models.Keyword() { Name = "Weather" });
             await KeywordDataService.AddItemAsync(new Models.Keyword() { Name = "Architecture" });
+            await KeywordDataService.AddItemAsync(new Models.Keyword() { Name = "Animals" });
+            await KeywordDataService.AddItemAsync(new Models.Keyword() { Name = "Anatomy" });
             await KeywordDataService.AddItemAsync(new Models.Keyword() { Name = "Buildings" });
+            await KeywordDataService.AddItemAsync(new Models.Keyword() { Name = "Build" });
             await KeywordDataService.AddItemAsync(new Models.Keyword() { Name = "People" });
         }
     }

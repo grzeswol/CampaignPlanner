@@ -63,8 +63,19 @@ namespace CampaignPlanner.ViewModels
 
         private async void OnDelete()
         {
-            await _townDataService.DeleteItemAsync(TownId);
-            await Shell.Current.GoToAsync("..");
+            try
+            {
+                await _townDataService.DeleteItemAsync(TownId);
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine("Failed to Delete Town", ex.Message);
+            }
+            finally
+            {
+                await Shell.Current.GoToAsync("..");
+            }
+
         }
 
         private async void OnUpdate()

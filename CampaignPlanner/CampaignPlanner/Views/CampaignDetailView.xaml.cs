@@ -10,7 +10,7 @@ namespace CampaignPlanner.Views
         public CampaignDetailView()
         {
             InitializeComponent();
-            BindingContext = ViewModelLocator.CampaignDetailViewModel;
+            BindingContext = new CampaignDetailViewModel(App.CampaignDataService, App.TownDataService, App.KeywordDataService);
         }
     }
 }

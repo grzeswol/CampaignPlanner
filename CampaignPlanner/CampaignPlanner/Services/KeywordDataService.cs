@@ -1,4 +1,5 @@
 ﻿using CampaignPlanner.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,31 +10,27 @@ namespace CampaignPlanner.Services
 {
     public class KeywordDataService : IDataService<Keyword>
     {
-        public async Task<bool> AddItemAsync(Keyword item)
+        public async Task<int> AddItemAsync(Keyword item)
         {
             using (var context = new CampaignPlannerContext())
             {
                 context.Keywords.Add(item);
-                await context.SaveChangesAsync();
+                return await context.SaveChangesAsync();
             }
-
-            return await Task.FromResult(true);
         }
 
-        public async Task<bool> DeleteItemAsync(int id)
+        public async Task<int> DeleteItemAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public async Task<bool> DeleteAllItemsAsync()
+        public async Task<int> DeleteAllItemsAsync()
         {
             using (var context = new CampaignPlannerContext())
             {
                 context.RemoveRange(context.Keywords);
-                await context.SaveChangesAsync();
-
+                return await context.SaveChangesAsync();
             }
-            return await Task.FromResult(true);
         }
 
         public async Task<Keyword> GetItemAsync(int id)
@@ -41,24 +38,34 @@ namespace CampaignPlanner.Services
             var result = new Keyword();
             using (var context = new CampaignPlannerContext())
             {
-                result = context.Keywords.FirstOrDefault(t => t.Id == id);
+                return await context.Keywords.FirstOrDefaultAsync(t => t.Id == id);
             }
-
-            return await Task.FromResult(result);
         }
+
 
         public async Task<IEnumerable<Keyword>> GetItemsAsync(bool forceRefresh = false)
         {
             var result = new List<Keyword>();
             using (var context = new CampaignPlannerContext())
             {
-                result = context.Keywords.ToList();
+                return await context.Keywords.ToListAsync();
             }
-
-            return await Task.FromResult(result);
         }
 
-        public async Task<bool> UpdateItemAsync(Keyword item)
+        public IEnumerable<Keyword> GetItems()
+        {
+            using (var context = new CampaignPlannerContext())
+            {
+                return context.Keywords.ToList();
+            }
+        }
+
+        public async Task<int> UpdateItemAsync(Keyword item)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Keyword GetItem(int id)
         {
             throw new NotImplementedException();
         }

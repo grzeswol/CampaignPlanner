@@ -1,4 +1,5 @@
 ﻿using CampaignPlanner.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,39 +10,35 @@ namespace CampaignPlanner.Services
 {
     public class TownDataService : IDataService<Town>
     {
-        public async Task<bool> AddItemAsync(Town item)
+        public async Task<int> AddItemAsync(Town item)
         {
             using (var context = new CampaignPlannerContext())
             {
                 context.Towns.Add(item);
-                await context.SaveChangesAsync();
+                return await context.SaveChangesAsync();
             }
-
-            return await Task.FromResult(true);
         }
 
-        public async Task<bool> DeleteItemAsync(int id)
+        public async Task<int> DeleteItemAsync(int id)
         {
             using (var context = new CampaignPlannerContext())
             {
                 var town = context.Towns.FirstOrDefault(t => t.Id == id);
                 context.Towns.Remove(town);
-                await context.SaveChangesAsync();
+                return await context.SaveChangesAsync();
 
             }
-            return await Task.FromResult(true);
         }
 
 
-        public async Task<bool> DeleteAllItemsAsync()
+        public async Task<int> DeleteAllItemsAsync()
         {
             using (var context = new CampaignPlannerContext())
             {
                 context.RemoveRange(context.Towns);
-                await context.SaveChangesAsync();
+                return await context.SaveChangesAsync();
 
             }
-            return await Task.FromResult(true);
         }
 
         public async Task<Town> GetItemAsync(int id)
@@ -49,10 +46,8 @@ namespace CampaignPlanner.Services
             var result = new Town();
             using (var context = new CampaignPlannerContext())
             {
-                result = context.Towns.FirstOrDefault(t => t.Id == id);
+                return await context.Towns.FirstOrDefaultAsync(t => t.Id == id);
             }
-
-            return await Task.FromResult(result);
         }
 
         public async Task<IEnumerable<Town>> GetItemsAsync(bool forceRefresh = false)
@@ -60,21 +55,31 @@ namespace CampaignPlanner.Services
             var result = new List<Town>();
             using (var context = new CampaignPlannerContext())
             {
-                result = context.Towns.ToList();
+                return await context.Towns.ToListAsync();
             }
-
-            return await Task.FromResult(result);
         }
 
-        public async Task<bool> UpdateItemAsync(Town item)
+        public IEnumerable<Town> GetItems()
+        {
+            using (var context = new CampaignPlannerContext())
+            {
+                return context.Towns.ToList();
+            }
+        }
+
+        public async Task<int> UpdateItemAsync(Town item)
         {
             using (var context = new CampaignPlannerContext())
             {
                 var town = context.Towns.FirstOrDefault(t => t.Id == item.Id);
                 town.Name = item.Name;
-                await context.SaveChangesAsync();
+                return await context.SaveChangesAsync();
             }
-            return await Task.FromResult(true);
+        }
+
+        public Town GetItem(int id)
+        {
+            throw new NotImplementedException();
         }
     }
 }
