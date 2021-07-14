@@ -1,5 +1,5 @@
 # CampaignPlanner
-Campaign Planner is a simple project that executes [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) operations on a campaign object. Project uses [MVVM Pattern](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/enterprise-application-patterns/mvvm).
+Campaign Planner is a simple project that executes [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) operations on a campaign object. The project uses [MVVM Pattern](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/enterprise-application-patterns/mvvm). As data storage, Campaign Planner uses sqlite database management system, however it should be pretty easy to change it to another database management system, as the project also uses Entity Framework Core ORM.
 
 Project is developed using real Android device, not tested on iOS.
 
