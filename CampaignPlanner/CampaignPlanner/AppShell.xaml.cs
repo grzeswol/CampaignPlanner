@@ -13,6 +13,8 @@ namespace CampaignPlanner
             InitializeComponent();
             Routing.RegisterRoute(nameof(NewTownView), typeof(NewTownView));
             Routing.RegisterRoute(nameof(TownDetailView), typeof(TownDetailView));
+            Routing.RegisterRoute(nameof(CampaignDetailView), typeof(CampaignDetailView));
+            Routing.RegisterRoute(nameof(NewCampaignView), typeof(NewCampaignView));
         }
 
     }

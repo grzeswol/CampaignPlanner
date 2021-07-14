@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CampaignPlanner.Views.NewCampaignView"
+             Shell.PresentationMode="ModalAnimated"
+             Title="New Campaign"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
+             ios:Page.UseSafeArea="true">
+
+    <ContentPage.Content>
+        <StackLayout Spacing="3" Padding="15">
+            <Label Text="{Binding EmeraldAccountFunds, StringFormat='Emerald Funds: {0:N}'}" FontSize="Medium" />
+            <Label Text="Name" FontSize="Medium" />
+            <Entry Text="{Binding Name, Mode=TwoWay}" FontSize="Medium" />
+            <Label Text="Bid Amount" FontSize="Medium" />
+            <Entry Text="{Binding BidAmount, Mode=TwoWay}" FontSize="Medium" Keyboard="Numeric"/>
+            <Label Text="Campaign Funds" FontSize="Medium" />
+            <Entry Text="{Binding CampaignFund, Mode=TwoWay}" FontSize="Medium" Keyboard="Numeric" />
+            <Label Text="Status" FontSize="Medium" />
+            <Switch 
+                   IsToggled="{Binding Status, Mode=TwoWay}"
+                   ></Switch>
+            <Picker Title="Select town"
+                TitleColor="Blue"
+                ItemsSource="{Binding Towns}"
+                ItemDisplayBinding="{Binding Name}"
+                SelectedItem="{Binding SelectedTown}" />
+            <Label Text="Radius" FontSize="Medium" />
+            <Entry Text="{Binding Radius, Mode=TwoWay}" FontSize="Medium" Keyboard="Numeric"/>
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Cancel" Command="{Binding CancelCommand}" HorizontalOptions="FillAndExpand"></Button>
+                <Button Text="Save" Command="{Binding SaveCommand}" HorizontalOptions="FillAndExpand"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

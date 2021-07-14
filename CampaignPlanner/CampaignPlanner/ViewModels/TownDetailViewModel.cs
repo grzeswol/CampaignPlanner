@@ -12,7 +12,7 @@ namespace CampaignPlanner.ViewModels
     {
         private int townId;
         private string name;
-        private ITownDataService<Town> _townDataService;
+        private IDataService<Town> _townDataService;
 
         public int Id { get; set; }
 
@@ -40,7 +40,7 @@ namespace CampaignPlanner.ViewModels
         public Command UpdateTownCommand { get; }
 
 
-        public TownDetailViewModel(ITownDataService<Town> townDataService)
+        public TownDetailViewModel(IDataService<Town> townDataService)
         {
             _townDataService = townDataService;
             DeleteTownCommand = new Command(OnDelete);
@@ -71,16 +71,16 @@ namespace CampaignPlanner.ViewModels
         {
             try
             {
-                var town = await _townDataService.GetItemAsync(townId);
-                if (town.Name != Name)
+                var town = new Town()
                 {
-                    town.Name = Name;
-                    await _townDataService.UpdateItemAsync(town);
-                }
+                    Id = TownId,
+                    Name = Name
+                };
+                await _townDataService.UpdateItemAsync(town);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                Debug.WriteLine("Failed to Update Town");
+                Debug.WriteLine("Failed to Update Town", ex.Message);
             }
             finally
             {

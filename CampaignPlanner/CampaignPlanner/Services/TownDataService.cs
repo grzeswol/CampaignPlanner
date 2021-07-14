@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CampaignPlanner.Services
 {
-    public class TownDataService : ITownDataService<Town>
+    public class TownDataService : IDataService<Town>
     {
         public async Task<bool> AddItemAsync(Town item)
         {
@@ -26,6 +26,18 @@ namespace CampaignPlanner.Services
             {
                 var town = context.Towns.FirstOrDefault(t => t.Id == id);
                 context.Towns.Remove(town);
+                await context.SaveChangesAsync();
+
+            }
+            return await Task.FromResult(true);
+        }
+
+
+        public async Task<bool> DeleteAllItemsAsync()
+        {
+            using (var context = new CampaignPlannerContext())
+            {
+                context.RemoveRange(context.Towns);
                 await context.SaveChangesAsync();
 
             }

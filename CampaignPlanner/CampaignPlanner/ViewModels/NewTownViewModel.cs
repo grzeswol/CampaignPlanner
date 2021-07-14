@@ -10,11 +10,11 @@ namespace CampaignPlanner.ViewModels
 {
     public class NewTownViewModel : BaseViewModel
     {
-        private ITownDataService<Town> _townDataService;
+        private IDataService<Town> _townDataService;
 
         private string name;
 
-        public NewTownViewModel(ITownDataService<Town> townDataService)
+        public NewTownViewModel(IDataService<Town> townDataService)
         {
             _townDataService = townDataService;
             SaveCommand = new Command(OnSave, ValidateSave);

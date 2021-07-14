@@ -11,6 +11,8 @@ namespace CampaignPlanner.Services
     public class CampaignPlannerContext : DbContext
     {
         public DbSet<Town> Towns { get; set; }
+        public DbSet<Keyword> Keywords { get; set; }
+        public DbSet<Campaign> Campaigns { get; set; }
 
         public CampaignPlannerContext()
         {
@@ -25,6 +27,19 @@ namespace CampaignPlanner.Services
 
             optionsBuilder
                 .UseSqlite($"Filename={dbPath}");
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Campaign>()
+              .HasOne(t => t.Town)
+              .WithMany()
+              .OnDelete(DeleteBehavior.SetNull);
+
+            modelBuilder.Entity<Campaign>()
+             .HasMany(t => t.Keywords)
+             .WithOne()
+             .OnDelete(DeleteBehavior.SetNull);
         }
     }
 }

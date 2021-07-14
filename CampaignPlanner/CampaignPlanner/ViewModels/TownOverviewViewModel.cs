@@ -15,7 +15,7 @@ namespace CampaignPlanner.ViewModels
     public class TownOverviewViewModel : BaseViewModel
     {
         private ObservableCollection<Town> _towns;
-        private ITownDataService<Town> _townDataService;
+        private IDataService<Town> _townDataService;
         private Town _selectedTown;
 
         public ObservableCollection<Town> Towns
@@ -44,7 +44,7 @@ namespace CampaignPlanner.ViewModels
             }
         }
 
-        public TownOverviewViewModel(ITownDataService<Town> townDataService)
+        public TownOverviewViewModel(IDataService<Town> townDataService)
         {
             _townDataService = townDataService;
             LoadCommand = new Command(async () => await ExecuteLoadTownsCommand());

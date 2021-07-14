@@ -10,12 +10,17 @@ namespace CampaignPlanner
     {
 
         public static TownDataService TownDataService { get; } = new TownDataService();
+        public static CampaignDataService CampaignDataService { get; } = new CampaignDataService();
+        public static KeywordDataService KeywordDataService { get; } = new KeywordDataService();
+        public static double EmeraldAccountFunds { get; set; } = 20000.00;
+        public static double MIN_BID_AMOUNT = 4;
+
         public App()
         {
             InitializeComponent();
 
             MainPage = new AppShell();
-            //SeedData();
+            SeedData();
         }
 
         protected override void OnStart()
@@ -32,7 +37,18 @@ namespace CampaignPlanner
 
         private async void SeedData()
         {
-            await TownDataService.AddItemAsync(new Models.Town() { Name = "test" });
+            await CampaignDataService.DeleteAllItemsAsync();
+            await TownDataService.DeleteAllItemsAsync();
+            await KeywordDataService.DeleteAllItemsAsync();
+
+            await TownDataService.AddItemAsync(new Models.Town() { Name = "New York" });
+            await TownDataService.AddItemAsync(new Models.Town() { Name = "London" });
+            await TownDataService.AddItemAsync(new Models.Town() { Name = "Oxford" });
+            await TownDataService.AddItemAsync(new Models.Town() { Name = "San Francisco" });
+            await KeywordDataService.AddItemAsync(new Models.Keyword() { Name = "Weather" });
+            await KeywordDataService.AddItemAsync(new Models.Keyword() { Name = "Architecture" });
+            await KeywordDataService.AddItemAsync(new Models.Keyword() { Name = "Buildings" });
+            await KeywordDataService.AddItemAsync(new Models.Keyword() { Name = "People" });
         }
     }
 }

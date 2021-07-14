@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CampaignPlanner.Tests.Mocks
 {
-    class MockTownDataService : ITownDataService<Town>
+    class MockTownDataService : IDataService<Town>
     {
         private List<Town> mockTowns = new List<Town>()
         {
@@ -22,6 +22,11 @@ namespace CampaignPlanner.Tests.Mocks
         {
             mockTowns.Add(item);
             return await Task.FromResult(true);
+        }
+
+        public Task<bool> DeleteAllItemsAsync()
+        {
+            throw new NotImplementedException();
         }
 
         public async Task<bool> DeleteItemAsync(int id)

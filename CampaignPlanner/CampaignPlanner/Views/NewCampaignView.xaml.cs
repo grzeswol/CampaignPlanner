@@ -9,12 +9,14 @@ using Xamarin.Forms.Xaml;
 
 namespace CampaignPlanner.Views
 {
-    public partial class NewTownView : ContentPage
+    public partial class NewCampaignView : ContentPage
     {
-        public NewTownView()
+        public Campaign Campaign { get; set; }
+
+        public NewCampaignView()
         {
             InitializeComponent();
-            BindingContext = ViewModelLocator.NewTownViewModel;
+            BindingContext = ViewModelLocator.NewCampaignViewModel;
         }
     }
 }
