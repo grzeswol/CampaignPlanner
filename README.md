@@ -19,6 +19,7 @@ Working with Towns is similar to working with Campaigns
 # What's next
 
 * Adding CRUD actions to Keywords
+* Merging New and Edit views into one
 * Better validation with [Behaviors](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/behaviors/)
 * Adding more unit tests
 * Adding UI tests with [Xamarin.UITest](https://docs.microsoft.com/en-us/appcenter/test-cloud/frameworks/uitest/xamarin-forms?tabs=windows)
